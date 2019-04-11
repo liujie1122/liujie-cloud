@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: dev
+#    active: peer1
+#    active: peer2
+#    active: peer3
