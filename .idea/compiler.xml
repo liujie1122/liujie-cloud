@@ -7,8 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="admin-client" />
+        <module name="admin-client2" />
         <module name="admin-server" />
+        <module name="cloud-config" />
+        <module name="cloud-config-server" />
         <module name="common" />
+        <module name="config-client" />
+        <module name="config-server" />
         <module name="eureka-registry" />
         <module name="eureka-server" />
         <module name="zuul-gateway" />
@@ -16,9 +21,14 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="admin-client" target="1.8" />
+      <module name="admin-client2" target="1.8" />
       <module name="admin-server" target="1.8" />
+      <module name="cloud-config" target="1.8" />
+      <module name="cloud-config-server" target="1.8" />
       <module name="cloud-demo" target="1.8" />
       <module name="common" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="eureka-registry" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="liujie-cloud" target="1.8" />

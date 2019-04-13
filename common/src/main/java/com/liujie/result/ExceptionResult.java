@@ -1,4 +1,4 @@
-package com.liujie.vo;
+package com.liujie.result;
 
 import com.liujie.enums.ExceptionEnum;
 import lombok.AllArgsConstructor;
