@@ -1,4 +1,0 @@
-# 配置文件使用 默认使用 dev 环境
-spring:
-  profiles:
-    active: dev
