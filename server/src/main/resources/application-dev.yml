@@ -1,0 +1,93 @@
+server:
+  port: 8080
+  # 配置文件使用 默认使用 dev 环境
+#  spring.profiles.active=dev
+spring:
+  application:
+    name: liujie-server
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dataTest?useSSL=false&serverTimezone=UTC&characterEncoding=utf-8
+    username: root
+    password: root
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.60.110:9300
+# spring-data-jpa 相关配置
+#在application.properties配置数据库引擎为InnoDB，同时需要将数据库表引擎设置为  innodb
+# 否则事务回滚将会失败
+# SHOW VARIABLES LIKE '%storage_engine%';
+# alter table table_name engine=innodb;
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update  # 指jpa对表生成的策略
+      show-sql: true  # 是否显示sql语句
+      open-in-view: true
+      properties:
+        javax:
+          persistence:
+            validation:
+              mode: none  # 验证框架是否对数据操作验证
+        hibernate:
+          format_sql: true  # 格式化sql
+          dialect: org.hibernate.dialect.MySQL5Dialect  #方言
+#表中字段命名策略,这里要引入hibernate的核心包，不然这个命名策略会报错
+#spring.jpa.hibernate.naming.implicit-strategy=org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+#spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#spring.jpa.hibernate.naming.strategy=org.hibernate.cfg.ImprovedNamingStrategy
+# Spring Session相关配置
+  session:
+      store-type: redis
+      redis:
+        flush-mode: on_save  #redis刷新模式 有2种:immediate/on_save
+        namespace: spring:session
+  # Redis相关配置
+  #这里我们以本地为例。实际视具体情况而定
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  #session有效时间
+  servlet:
+    session:
+      timeout: 30000
+#  server.servlet.session.timeout=30000
+  rabbitmq:
+      host: 192.168.60.110  # 主机
+      username: root # 账号
+      password: root # 密码
+      virtual-host: /  #访问路径
+      template: #有关AmqpTemplate的配置
+        retry: # 失败重试配置
+          enabled: true  #开启失败重试
+          initial-interval: 10000   #第一次重试的间隔时长
+          max-interval: 30000 # 最长重试间隔，超过这个间隔将不再重试
+          multiplier: 2 #下次重试间隔的倍数，此处是2即下次重试间隔是上次的2倍
+        exchange: liujie  #缺省的交换机名称，此处配置后，发送消息如果不指定交换机就会使用这个
+      publisher-confirms: true #生产者确认机制，确保消息会正确发送，如果发送失败会有错误回执，从而触发重试
+# 日志文件相关配置
+logging:
+  file: ./log/liujie-server.log
+eureka:
+  instance:
+      instance-id: liujie-server:8080
+      prefer-ip-address: true  # 是否显示ip前缀
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:10086/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
+# 项目信息
+#info:
+#  version: @project.version@
+#  description: @description@
+
+#      spring-boot-maven-pluginMETA-INF/build-info.properties

@@ -1,32 +1,4 @@
-server:
-  port: 8763
-# 日志文件相关配置
-logging:
-  file: ./log/admin-client.log
-eureka:
-  instance:
-      instance-id: admin-client
-      prefer-ip-address: true  # 是否显示ip前缀
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:10086/eureka/
+# 配置文件使用 默认使用 dev 环境
 spring:
-  application:
-    name: admin-client
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-  endpoint:
-    health:
-      show-details: always
-
-
-# 项目信息
-#info:
-#  version: @project.version@
-#  description: @description@
-
-#      spring-boot-maven-pluginMETA-INF/build-info.properties
+  profiles:
+    active: dev

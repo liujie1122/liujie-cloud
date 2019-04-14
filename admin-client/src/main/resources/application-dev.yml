@@ -1,0 +1,23 @@
+server:
+  port: 8763
+spring:
+  application:
+    name: admin-client
+# 日志文件相关配置
+logging:
+  file: ./log/admin-client.log
+eureka:
+  instance:
+      instance-id: admin-client:8763
+      prefer-ip-address: true  # 是否显示ip前缀
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:10086/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

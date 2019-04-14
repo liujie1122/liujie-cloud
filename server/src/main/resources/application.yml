@@ -1,0 +1,9 @@
+# 配置文件使用 默认使用 dev 环境
+spring:
+  profiles:
+    active: dev
+#系统默认的主服务器IP、端口号、描述信息
+main:
+  host: 192.168.1.158
+  port: 8087
+  des: 测试项目
