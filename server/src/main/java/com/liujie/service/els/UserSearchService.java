@@ -1,16 +1,11 @@
 package com.liujie.service.els;
 
-import com.alibaba.fastjson.JSONObject;
-import com.alibaba.fastjson.TypeReference;
-import com.liujie.pojo.user.User;
-import com.liujie.pojo.user.UserSearch;
+import com.liujie.upload.pojo.user.UserSearch;
 import com.liujie.repository.UserSearchRepository;
-import com.liujie.service.sql.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 

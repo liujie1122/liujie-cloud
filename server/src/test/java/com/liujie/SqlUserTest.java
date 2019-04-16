@@ -3,7 +3,7 @@ package com.liujie;
 
 //import com.liujie.repository.UserRepository;
 import com.liujie.dao.UserDao;
-import com.liujie.pojo.user.User;
+import com.liujie.upload.pojo.user.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

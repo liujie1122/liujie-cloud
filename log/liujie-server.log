@@ -56,17 +56,17 @@
 2019-04-15 20:43:00.887  INFO 10876 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
 2019-04-15 20:43:02.065  INFO 10876 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2019-04-15 20:43:05.608  WARN 10876 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-04-15 20:43:05.867  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/updateUser],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.DemoController.updateUser(com.liujie.pojo.user.User)
-2019-04-15 20:43:05.868  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/queryUser],methods=[GET]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.DemoController.queryUser(java.lang.Integer)
-2019-04-15 20:43:05.868  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/deleteUser],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.DemoController.deleteUser(java.lang.String)
-2019-04-15 20:43:05.868  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/createUser],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.DemoController.createUser(com.liujie.pojo.user.User)
-2019-04-15 20:43:05.873  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/test],methods=[GET]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.UserController.test()
-2019-04-15 20:43:05.873  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/user/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.UserController.user(java.lang.Integer)
-2019-04-15 20:43:05.874  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/user/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.UserController.user(java.lang.Integer,com.liujie.pojo.user.User)
-2019-04-15 20:43:05.874  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.UserController.user(com.liujie.pojo.user.User)
-2019-04-15 20:43:05.874  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/user/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.UserController.deleteUser(java.lang.Integer)
-2019-04-15 20:43:05.875  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/findAll],methods=[GET]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.UserController.findAll()
-2019-04-15 20:43:05.875  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/test1],methods=[GET]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.UserController.test1()
+2019-04-15 20:43:05.867  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/updateUser],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity DemoController.updateUser(User)
+2019-04-15 20:43:05.868  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/queryUser],methods=[GET]}" onto public org.springframework.http.ResponseEntity DemoController.queryUser(java.lang.Integer)
+2019-04-15 20:43:05.868  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/deleteUser],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity DemoController.deleteUser(java.lang.String)
+2019-04-15 20:43:05.868  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/createUser],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity DemoController.createUser(User)
+2019-04-15 20:43:05.873  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/test],methods=[GET]}" onto public org.springframework.http.ResponseEntity UserController.test()
+2019-04-15 20:43:05.873  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/user/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity UserController.user(java.lang.Integer)
+2019-04-15 20:43:05.874  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/user/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity UserController.user(java.lang.Integer,User)
+2019-04-15 20:43:05.874  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity UserController.user(User)
+2019-04-15 20:43:05.874  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/user/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity UserController.deleteUser(java.lang.Integer)
+2019-04-15 20:43:05.875  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/findAll],methods=[GET]}" onto public org.springframework.http.ResponseEntity UserController.findAll()
+2019-04-15 20:43:05.875  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/test1],methods=[GET]}" onto public org.springframework.http.ResponseEntity UserController.test1()
 2019-04-15 20:43:05.876  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
 2019-04-15 20:43:05.879  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
 2019-04-15 20:43:05.880  INFO 10876 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
@@ -218,8 +218,8 @@ Caused by: java.util.concurrent.TimeoutException: Timeout waiting for task.
 
 2019-04-15 20:43:26.222  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-15 20:43:26.224  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
-2019-04-15 20:43:34.321  INFO 10876 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
-2019-04-15 20:43:34.321  INFO 10876 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-15 20:43:34.321  INFO 10876 --- [http-nio-8080-exec-1] MyCorseFilter  : RequestURI = /actuator/health
+2019-04-15 20:43:34.321  INFO 10876 --- [http-nio-8080-exec-1] MyCorseFilter  : contentType = null
 2019-04-15 20:43:34.457  WARN 10876 --- [http-nio-8080-exec-1] o.s.b.a.e.ElasticsearchHealthIndicator   : Elasticsearch health check failed
 
 org.elasticsearch.ElasticsearchTimeoutException: java.util.concurrent.TimeoutException: Timeout waiting for task.
@@ -264,7 +264,7 @@ org.elasticsearch.ElasticsearchTimeoutException: java.util.concurrent.TimeoutExc
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
-	at com.liujie.config.fillter.MyCorseFilter.doFilter(MyCorseFilter.java:64) ~[classes/:na]
+	at MyCorseFilter.doFilter(MyCorseFilter.java:64) ~[classes/:na]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
@@ -333,31 +333,31 @@ Caused by: java.util.concurrent.TimeoutException: Timeout waiting for task.
 	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:69) ~[elasticsearch-5.6.10.jar:5.6.10]
 	... 103 common frames omitted
 
-2019-04-15 20:43:34.509  INFO 10876 --- [http-nio-8080-exec-3] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator
-2019-04-15 20:43:34.509  INFO 10876 --- [http-nio-8080-exec-3] com.liujie.config.fillter.MyCorseFilter  : contentType = null
-2019-04-15 20:43:34.545  INFO 10876 --- [http-nio-8080-exec-2] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/info
-2019-04-15 20:43:34.545  INFO 10876 --- [http-nio-8080-exec-2] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-15 20:43:34.509  INFO 10876 --- [http-nio-8080-exec-3] MyCorseFilter  : RequestURI = /actuator
+2019-04-15 20:43:34.509  INFO 10876 --- [http-nio-8080-exec-3] MyCorseFilter  : contentType = null
+2019-04-15 20:43:34.545  INFO 10876 --- [http-nio-8080-exec-2] MyCorseFilter  : RequestURI = /actuator/info
+2019-04-15 20:43:34.545  INFO 10876 --- [http-nio-8080-exec-2] MyCorseFilter  : contentType = null
 2019-04-15 20:43:36.224  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-15 20:43:36.226  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
 2019-04-15 20:43:46.224  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-15 20:43:46.226  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
-2019-04-15 20:43:48.813  INFO 10876 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
-2019-04-15 20:43:48.813  INFO 10876 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : contentType = null
-2019-04-15 20:43:48.862  INFO 10876 --- [http-nio-8080-exec-6] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/info
-2019-04-15 20:43:48.862  INFO 10876 --- [http-nio-8080-exec-6] com.liujie.config.fillter.MyCorseFilter  : contentType = null
-2019-04-15 20:43:48.863  INFO 10876 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator
-2019-04-15 20:43:48.864  INFO 10876 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-15 20:43:48.813  INFO 10876 --- [http-nio-8080-exec-4] MyCorseFilter  : RequestURI = /actuator/health
+2019-04-15 20:43:48.813  INFO 10876 --- [http-nio-8080-exec-4] MyCorseFilter  : contentType = null
+2019-04-15 20:43:48.862  INFO 10876 --- [http-nio-8080-exec-6] MyCorseFilter  : RequestURI = /actuator/info
+2019-04-15 20:43:48.862  INFO 10876 --- [http-nio-8080-exec-6] MyCorseFilter  : contentType = null
+2019-04-15 20:43:48.863  INFO 10876 --- [http-nio-8080-exec-5] MyCorseFilter  : RequestURI = /actuator
+2019-04-15 20:43:48.864  INFO 10876 --- [http-nio-8080-exec-5] MyCorseFilter  : contentType = null
 2019-04-15 20:43:56.225  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-15 20:43:56.227  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
 2019-04-15 20:44:06.226  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-15 20:44:06.298  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
-2019-04-15 20:44:08.814  INFO 10876 --- [http-nio-8080-exec-7] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
-2019-04-15 20:44:08.814  INFO 10876 --- [http-nio-8080-exec-7] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-15 20:44:08.814  INFO 10876 --- [http-nio-8080-exec-7] MyCorseFilter  : RequestURI = /actuator/health
+2019-04-15 20:44:08.814  INFO 10876 --- [http-nio-8080-exec-7] MyCorseFilter  : contentType = null
 2019-04-15 20:44:16.227  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-15 20:44:16.385  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
 2019-04-15 20:44:26.228  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
-2019-04-15 20:44:28.813  INFO 10876 --- [http-nio-8080-exec-8] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
-2019-04-15 20:44:28.814  INFO 10876 --- [http-nio-8080-exec-8] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-15 20:44:28.813  INFO 10876 --- [http-nio-8080-exec-8] MyCorseFilter  : RequestURI = /actuator/health
+2019-04-15 20:44:28.814  INFO 10876 --- [http-nio-8080-exec-8] MyCorseFilter  : contentType = null
 2019-04-15 20:44:28.920  WARN 10876 --- [http-nio-8080-exec-8] o.s.b.a.e.ElasticsearchHealthIndicator   : Elasticsearch health check failed
 
 org.elasticsearch.ElasticsearchTimeoutException: java.util.concurrent.TimeoutException: Timeout waiting for task.
@@ -402,7 +402,7 @@ org.elasticsearch.ElasticsearchTimeoutException: java.util.concurrent.TimeoutExc
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
-	at com.liujie.config.fillter.MyCorseFilter.doFilter(MyCorseFilter.java:64) ~[classes/:na]
+	at MyCorseFilter.doFilter(MyCorseFilter.java:64) ~[classes/:na]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
@@ -471,39 +471,316 @@ Caused by: java.util.concurrent.TimeoutException: Timeout waiting for task.
 	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:69) ~[elasticsearch-5.6.10.jar:5.6.10]
 	... 103 common frames omitted
 
-2019-04-15 20:44:28.943  INFO 10876 --- [http-nio-8080-exec-9] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/info
-2019-04-15 20:44:28.945  INFO 10876 --- [http-nio-8080-exec-9] com.liujie.config.fillter.MyCorseFilter  : contentType = null
-2019-04-15 20:44:28.953  INFO 10876 --- [http-nio-8080-exec-10] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator
-2019-04-15 20:44:28.954  INFO 10876 --- [http-nio-8080-exec-10] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-15 20:44:28.943  INFO 10876 --- [http-nio-8080-exec-9] MyCorseFilter  : RequestURI = /actuator/info
+2019-04-15 20:44:28.945  INFO 10876 --- [http-nio-8080-exec-9] MyCorseFilter  : contentType = null
+2019-04-15 20:44:28.953  INFO 10876 --- [http-nio-8080-exec-10] MyCorseFilter  : RequestURI = /actuator
+2019-04-15 20:44:28.954  INFO 10876 --- [http-nio-8080-exec-10] MyCorseFilter  : contentType = null
 2019-04-15 20:44:29.978  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
-2019-04-15 20:44:31.876  INFO 10876 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/info
-2019-04-15 20:44:31.876  INFO 10876 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : contentType = null
-2019-04-15 20:44:31.931  INFO 10876 --- [http-nio-8080-exec-3] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /favicon.ico
-2019-04-15 20:44:31.931  INFO 10876 --- [http-nio-8080-exec-3] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-15 20:44:31.876  INFO 10876 --- [http-nio-8080-exec-1] MyCorseFilter  : RequestURI = /actuator/info
+2019-04-15 20:44:31.876  INFO 10876 --- [http-nio-8080-exec-1] MyCorseFilter  : contentType = null
+2019-04-15 20:44:31.931  INFO 10876 --- [http-nio-8080-exec-3] MyCorseFilter  : RequestURI = /favicon.ico
+2019-04-15 20:44:31.931  INFO 10876 --- [http-nio-8080-exec-3] MyCorseFilter  : contentType = null
 2019-04-15 20:44:31.935  WARN 10876 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'dispatcherServlet'
 2019-04-15 20:44:36.229  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-15 20:44:36.231  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
 2019-04-15 20:44:46.231  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-15 20:44:46.236  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
-2019-04-15 20:44:48.813  INFO 10876 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
-2019-04-15 20:44:48.814  INFO 10876 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : contentType = null
-2019-04-15 20:44:48.851  INFO 10876 --- [http-nio-8080-exec-6] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator
-2019-04-15 20:44:48.851  INFO 10876 --- [http-nio-8080-exec-6] com.liujie.config.fillter.MyCorseFilter  : contentType = null
-2019-04-15 20:44:48.851  INFO 10876 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/info
-2019-04-15 20:44:48.851  INFO 10876 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-15 20:44:48.813  INFO 10876 --- [http-nio-8080-exec-4] MyCorseFilter  : RequestURI = /actuator/health
+2019-04-15 20:44:48.814  INFO 10876 --- [http-nio-8080-exec-4] MyCorseFilter  : contentType = null
+2019-04-15 20:44:48.851  INFO 10876 --- [http-nio-8080-exec-6] MyCorseFilter  : RequestURI = /actuator
+2019-04-15 20:44:48.851  INFO 10876 --- [http-nio-8080-exec-6] MyCorseFilter  : contentType = null
+2019-04-15 20:44:48.851  INFO 10876 --- [http-nio-8080-exec-5] MyCorseFilter  : RequestURI = /actuator/info
+2019-04-15 20:44:48.851  INFO 10876 --- [http-nio-8080-exec-5] MyCorseFilter  : contentType = null
 2019-04-15 20:44:56.234  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-15 20:44:56.236  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
 2019-04-15 20:45:06.234  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-15 20:45:06.235  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
-2019-04-15 20:45:08.811  INFO 10876 --- [http-nio-8080-exec-7] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
-2019-04-15 20:45:08.811  INFO 10876 --- [http-nio-8080-exec-7] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-15 20:45:08.811  INFO 10876 --- [http-nio-8080-exec-7] MyCorseFilter  : RequestURI = /actuator/health
+2019-04-15 20:45:08.811  INFO 10876 --- [http-nio-8080-exec-7] MyCorseFilter  : contentType = null
 2019-04-15 20:45:16.235  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-15 20:45:16.236  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
 2019-04-15 20:45:26.236  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-15 20:45:26.238  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
-2019-04-15 20:45:28.814  INFO 10876 --- [http-nio-8080-exec-8] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
-2019-04-15 20:45:28.814  INFO 10876 --- [http-nio-8080-exec-8] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-15 20:45:28.814  INFO 10876 --- [http-nio-8080-exec-8] MyCorseFilter  : RequestURI = /actuator/health
+2019-04-15 20:45:28.814  INFO 10876 --- [http-nio-8080-exec-8] MyCorseFilter  : contentType = null
 2019-04-15 20:45:36.238  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-15 20:45:36.239  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
 2019-04-15 20:45:46.240  INFO 10876 --- [Thread-114] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-15 20:45:46.248  INFO 10876 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
+2019-04-16 21:07:26.927  INFO 9080 --- [restartedMain] com.liujie.ServerApplication             : The following profiles are active: dev
+2019-04-16 21:07:26.939  INFO 9080 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62df11b3: startup date [Tue Apr 16 21:07:26 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@8e6cdea
+2019-04-16 21:07:29.724  INFO 9080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-16 21:07:29.849  INFO 9080 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.liujie.dao.UserDao.
+2019-04-16 21:07:29.932  INFO 9080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-16 21:07:29.947  INFO 9080 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.liujie.repository.ItemRepository.
+2019-04-16 21:07:29.951  INFO 9080 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.liujie.repository.StudentRepository.
+2019-04-16 21:07:29.953  INFO 9080 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.liujie.repository.UserSearchRepository.
+2019-04-16 21:07:30.000  INFO 9080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-16 21:07:30.038  INFO 9080 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.liujie.dao.UserDao.
+2019-04-16 21:07:30.039  INFO 9080 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.liujie.repository.ItemRepository.
+2019-04-16 21:07:30.039  INFO 9080 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.liujie.repository.StudentRepository.
+2019-04-16 21:07:30.040  INFO 9080 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.liujie.repository.UserSearchRepository.
+2019-04-16 21:07:30.335  INFO 9080 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2019-04-16 21:07:30.617  INFO 9080 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b0f90003-e823-334a-bbba-071e8fa78bad
+2019-04-16 21:07:30.661  INFO 9080 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-16 21:07:30.691  INFO 9080 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$3722cfe6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-16 21:07:30.861  INFO 9080 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$70b711b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-16 21:07:30.926  INFO 9080 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8cd114b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-16 21:07:31.766  INFO 9080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-16 21:07:31.795  INFO 9080 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-16 21:07:31.796  INFO 9080 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-04-16 21:07:31.800  INFO 9080 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\ProgramFiles\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\ProgramFiles\Java\jdk1.8.0_101\bin;D:\ProgramFiles\Java\jdk1.8.0_101\jre\bin;D:\maven\apache-maven-3.6.0\bin;D:\ProgramFiles\Git\cmd;D:\ProgramFiles\MySQL\MySQL Server 5.5\bin;C:\Users\liujie\AppData\Local\Microsoft\WindowsApps;;.]
+2019-04-16 21:07:31.952  INFO 9080 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-16 21:07:31.953  INFO 9080 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5014 ms
+2019-04-16 21:07:32.174  WARN 9080 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-16 21:07:32.174  INFO 9080 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-16 21:07:32.182  INFO 9080 --- [localhost-startStop-1] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6f0ed3fe
+2019-04-16 21:07:34.722  INFO 9080 --- [localhost-startStop-1] o.s.aop.framework.CglibAopProxy          : Method [void com.zaxxer.hikari.HikariConfig.seal()] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2019-04-16 21:07:35.437  INFO 9080 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : no modules loaded
+2019-04-16 21:07:35.437  INFO 9080 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-04-16 21:07:35.438  INFO 9080 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-04-16 21:07:35.438  INFO 9080 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-04-16 21:07:35.438  INFO 9080 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-04-16 21:07:35.438  INFO 9080 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-04-16 21:07:37.680  INFO 9080 --- [localhost-startStop-1] o.s.d.e.c.TransportClientFactoryBean     : Adding transport node : 192.168.60.110:9300
+2019-04-16 21:07:39.869  INFO 9080 --- [localhost-startStop-1] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-04-16 21:07:41.291  INFO 9080 --- [localhost-startStop-1] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-04-16 21:07:42.020  INFO 9080 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-16 21:07:42.020  INFO 9080 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-04-16 21:07:42.021  INFO 9080 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'sessionRepositoryFilter' to: [/*]
+2019-04-16 21:07:42.021  INFO 9080 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-16 21:07:42.022  INFO 9080 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'myCorseFilter' to: [/*]
+2019-04-16 21:07:42.022  INFO 9080 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-04-16 21:07:42.022  INFO 9080 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-04-16 21:07:42.024  INFO 9080 --- [localhost-startStop-1] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-04-16 21:07:42.446  INFO 9080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-16 21:07:42.650  INFO 9080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-16 21:07:42.696  INFO 9080 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-04-16 21:07:42.709  INFO 9080 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-16 21:07:42.807  INFO 9080 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-04-16 21:07:42.809  INFO 9080 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-16 21:07:42.858  INFO 9080 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-16 21:07:42.990  INFO 9080 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-04-16 21:07:43.504  INFO 9080 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-16 21:07:45.023  WARN 9080 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-16 21:07:45.213  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/createUser],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.DemoController.createUser(com.liujie.upload.pojo.user.User)
+2019-04-16 21:07:45.214  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/deleteUser],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.DemoController.deleteUser(java.lang.String)
+2019-04-16 21:07:45.215  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/queryUser],methods=[GET]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.DemoController.queryUser(java.lang.Integer)
+2019-04-16 21:07:45.215  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/updateUser],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.DemoController.updateUser(com.liujie.upload.pojo.user.User)
+2019-04-16 21:07:45.222  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/test],methods=[GET]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.UserController.test()
+2019-04-16 21:07:45.222  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/user/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.UserController.user(java.lang.Integer)
+2019-04-16 21:07:45.223  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/user/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.UserController.user(java.lang.Integer,com.liujie.upload.pojo.user.User)
+2019-04-16 21:07:45.223  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.UserController.user(com.liujie.upload.pojo.user.User)
+2019-04-16 21:07:45.224  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/test1],methods=[GET]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.UserController.test1()
+2019-04-16 21:07:45.224  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/user/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.UserController.deleteUser(java.lang.Integer)
+2019-04-16 21:07:45.225  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/findAll],methods=[GET]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.UserController.findAll()
+2019-04-16 21:07:45.226  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-04-16 21:07:45.232  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-04-16 21:07:45.234  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-04-16 21:07:45.235  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-04-16 21:07:45.240  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-16 21:07:45.241  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-16 21:07:45.401  INFO 9080 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 21 endpoint(s) beneath base path '/actuator'
+2019-04-16 21:07:45.420  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/archaius],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.421  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/auditevents],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.421  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/beans],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.421  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.422  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/conditions],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.422  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/configprops],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.422  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.422  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env/{toMatch}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.423  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.423  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[DELETE],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.423  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.424  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/logfile],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.424  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.425  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers/{name}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.425  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers/{name}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.425  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/heapdump],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.426  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/threaddump],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.426  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/metrics/{requiredMetricName}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.426  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/metrics],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.426  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/scheduledtasks],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.427  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/sessions/{sessionId}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.428  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/sessions],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.428  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/sessions/{sessionId}],methods=[DELETE]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.429  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/httptrace],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.429  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/mappings],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.430  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/refresh],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.430  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/features],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.431  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/service-registry],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.432  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/service-registry],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-16 21:07:45.434  INFO 9080 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-16 21:07:45.749  INFO 9080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62df11b3: startup date [Tue Apr 16 21:07:26 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@8e6cdea
+2019-04-16 21:07:45.810  INFO 9080 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in commonExceptionHandler
+2019-04-16 21:07:45.851  WARN 9080 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-16 21:07:45.851  INFO 9080 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-16 21:07:47.264  INFO 9080 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-04-16 21:07:47.266  INFO 9080 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-04-16 21:07:47.742  INFO 9080 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0fd113e5-2747-4984-967d-dffddcd8c822
+
+2019-04-16 21:07:47.919  INFO 9080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37a2bbee, org.springframework.security.web.context.SecurityContextPersistenceFilter@6532ed41, org.springframework.security.web.header.HeaderWriterFilter@36de4255, org.springframework.security.web.authentication.logout.LogoutFilter@614f026e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@291627f5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66b917e4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8e87325, org.springframework.security.web.session.SessionManagementFilter@72b89e20, org.springframework.security.web.access.ExceptionTranslationFilter@4ba90e26, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@126dd872]
+2019-04-16 21:07:48.029  WARN 9080 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-04-16 21:07:48.308  INFO 9080 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-04-16 21:07:48.310  INFO 9080 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-04-16 21:07:48.319  INFO 9080 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2019-04-16 21:07:48.321  INFO 9080 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-04-16 21:07:48.323  INFO 9080 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-04-16 21:07:48.326  INFO 9080 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-04-16 21:07:48.331  INFO 9080 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-04-16 21:07:48.341  INFO 9080 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-04-16 21:07:48.356  INFO 9080 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=62df11b3,type=ConfigurationPropertiesRebinder]
+2019-04-16 21:07:48.363  INFO 9080 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-04-16 21:07:48.366  INFO 9080 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2019-04-16 21:07:48.387  INFO 9080 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2019-04-16 21:07:48.402  INFO 9080 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-04-16 21:07:48.433  INFO 9080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-04-16 21:07:48.575  INFO 9080 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-04-16 21:07:48.576  INFO 9080 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-04-16 21:07:48.720  INFO 9080 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-04-16 21:07:48.720  INFO 9080 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-04-16 21:07:49.049  INFO 9080 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-04-16 21:07:49.245  INFO 9080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-04-16 21:07:49.245  INFO 9080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-04-16 21:07:49.245  INFO 9080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-04-16 21:07:49.245  INFO 9080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-04-16 21:07:49.246  INFO 9080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-04-16 21:07:49.246  INFO 9080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-04-16 21:07:49.246  INFO 9080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-04-16 21:07:49.468  INFO 9080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-04-16 21:07:49.470  INFO 9080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-04-16 21:07:49.473  INFO 9080 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-16 21:07:49.478  INFO 9080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1555420069476 with initial instances count: 2
+2019-04-16 21:07:49.486  INFO 9080 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application liujie-server with eureka with status UP
+2019-04-16 21:07:49.487  INFO 9080 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1555420069487, current=UP, previous=STARTING]
+2019-04-16 21:07:49.488  INFO 9080 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LIUJIE-SERVER/liujie-server:8080: registering service...
+2019-04-16 21:07:49.496  INFO 9080 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2019-04-16 21:07:49.496  INFO 9080 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-16 21:07:49.536  INFO 9080 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-16 21:07:49.542  INFO 9080 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LIUJIE-SERVER/liujie-server:8080 - registration status: 204
+2019-04-16 21:07:49.561  INFO 9080 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-16 21:07:49.691  WARN 9080 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Coercing to be of type string. This may not even be a scalar type in actuality
+2019-04-16 21:07:49.696  WARN 9080 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Coercing to be of type string. This may not even be a scalar type in actuality
+2019-04-16 21:07:49.716  INFO 9080 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUserUsingDELETE_1
+2019-04-16 21:07:49.770  INFO 9080 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.60.110:5672]
+2019-04-16 21:07:49.839  INFO 9080 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2d2ccdc3:0/SimpleConnection@2b28c6d6 [delegate=amqp://root@192.168.60.110:5672/, localPort= 60897]
+2019-04-16 21:07:50.017  INFO 9080 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-04-16 21:07:50.050  INFO 9080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-16 21:07:50.051  INFO 9080 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2019-04-16 21:07:50.055  INFO 9080 --- [restartedMain] com.liujie.ServerApplication             : Started ServerApplication in 27.298 seconds (JVM running for 29.657)
+2019-04-16 21:07:50.060  INFO 9080 --- [restartedMain] c.l.config.startRun.MyApplicationRunner  : 项目启动后执行该方法。。。。
+2019-04-16 21:07:50.070  INFO 9080 --- [Thread-73] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
+2019-04-16 21:07:50.080  INFO 9080 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
+2019-04-16 21:07:50.811  INFO 9080 --- [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-16 21:07:50.811  INFO 9080 --- [RMI TCP Connection(8)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-16 21:07:50.882  INFO 9080 --- [RMI TCP Connection(8)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 71 ms
+2019-04-16 21:08:00.070  INFO 9080 --- [Thread-73] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
+2019-04-16 21:08:00.075  INFO 9080 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
+2019-04-16 21:08:03.663  INFO 9080 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
+2019-04-16 21:08:03.663  INFO 9080 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:03.732  INFO 9080 --- [http-nio-8080-exec-2] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator
+2019-04-16 21:08:03.732  INFO 9080 --- [http-nio-8080-exec-2] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:03.749  INFO 9080 --- [http-nio-8080-exec-3] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/info
+2019-04-16 21:08:03.749  INFO 9080 --- [http-nio-8080-exec-3] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:10.072  INFO 9080 --- [Thread-73] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
+2019-04-16 21:08:10.078  INFO 9080 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
+2019-04-16 21:08:15.685  INFO 9080 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/info
+2019-04-16 21:08:15.685  INFO 9080 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics
+2019-04-16 21:08:15.685  INFO 9080 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.685  INFO 9080 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.707  INFO 9080 --- [http-nio-8080-exec-6] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
+2019-04-16 21:08:15.708  INFO 9080 --- [http-nio-8080-exec-6] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.743  INFO 9080 --- [http-nio-8080-exec-7] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/env/PID
+2019-04-16 21:08:15.743  INFO 9080 --- [http-nio-8080-exec-7] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.749  INFO 9080 --- [http-nio-8080-exec-8] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/system.cpu.count
+2019-04-16 21:08:15.750  INFO 9080 --- [http-nio-8080-exec-8] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.751  INFO 9080 --- [http-nio-8080-exec-9] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/process.uptime
+2019-04-16 21:08:15.752  INFO 9080 --- [http-nio-8080-exec-9] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.811  INFO 9080 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.gc.pause
+2019-04-16 21:08:15.811  INFO 9080 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.807  INFO 9080 --- [http-nio-8080-exec-10] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/process.cpu.usage
+2019-04-16 21:08:15.813  INFO 9080 --- [http-nio-8080-exec-10] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.819  INFO 9080 --- [http-nio-8080-exec-2] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/system.cpu.usage
+2019-04-16 21:08:15.819  INFO 9080 --- [http-nio-8080-exec-2] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.842  INFO 9080 --- [http-nio-8080-exec-3] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.threads.live
+2019-04-16 21:08:15.843  INFO 9080 --- [http-nio-8080-exec-3] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.850  INFO 9080 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.threads.peak
+2019-04-16 21:08:15.850  INFO 9080 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.867  INFO 9080 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.threads.daemon
+2019-04-16 21:08:15.867  INFO 9080 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.879  INFO 9080 --- [http-nio-8080-exec-6] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.memory.max
+2019-04-16 21:08:15.880  INFO 9080 --- [http-nio-8080-exec-6] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.880  INFO 9080 --- [http-nio-8080-exec-6] com.liujie.config.fillter.MyCorseFilter  : Map -> key = tag , value = [area:heap]
+2019-04-16 21:08:15.880  INFO 9080 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.memory.used
+2019-04-16 21:08:15.880  INFO 9080 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.881  INFO 9080 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : Map -> key = tag , value = [area:heap]
+2019-04-16 21:08:15.901  INFO 9080 --- [http-nio-8080-exec-8] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.memory.committed
+2019-04-16 21:08:15.901  INFO 9080 --- [http-nio-8080-exec-8] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.904  INFO 9080 --- [http-nio-8080-exec-9] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.memory.used
+2019-04-16 21:08:15.904  INFO 9080 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.memory.max
+2019-04-16 21:08:15.906  INFO 9080 --- [http-nio-8080-exec-9] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.906  INFO 9080 --- [http-nio-8080-exec-8] com.liujie.config.fillter.MyCorseFilter  : Map -> key = tag , value = [area:heap]
+2019-04-16 21:08:15.906  INFO 9080 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.906  INFO 9080 --- [http-nio-8080-exec-9] com.liujie.config.fillter.MyCorseFilter  : Map -> key = tag , value = [area:nonheap]
+2019-04-16 21:08:15.906  INFO 9080 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : Map -> key = tag , value = [area:nonheap]
+2019-04-16 21:08:15.932  INFO 9080 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.memory.committed
+2019-04-16 21:08:15.932  INFO 9080 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.932  INFO 9080 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : Map -> key = tag , value = [area:nonheap]
+2019-04-16 21:08:15.932  INFO 9080 --- [http-nio-8080-exec-3] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.memory.used
+2019-04-16 21:08:15.933  INFO 9080 --- [http-nio-8080-exec-3] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:15.933  INFO 9080 --- [http-nio-8080-exec-3] com.liujie.config.fillter.MyCorseFilter  : Map -> key = tag , value = [area:nonheap,id:Metaspace]
+2019-04-16 21:08:18.312  INFO 9080 --- [http-nio-8080-exec-7] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/process.cpu.usage
+2019-04-16 21:08:18.312  INFO 9080 --- [http-nio-8080-exec-7] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:18.314  INFO 9080 --- [http-nio-8080-exec-6] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/system.cpu.usage
+2019-04-16 21:08:18.314  INFO 9080 --- [http-nio-8080-exec-6] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:18.326  INFO 9080 --- [http-nio-8080-exec-8] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.threads.peak
+2019-04-16 21:08:18.326  INFO 9080 --- [http-nio-8080-exec-8] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:18.328  INFO 9080 --- [http-nio-8080-exec-9] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.threads.live
+2019-04-16 21:08:18.329  INFO 9080 --- [http-nio-8080-exec-9] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:18.330  INFO 9080 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.gc.pause
+2019-04-16 21:08:18.330  INFO 9080 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:18.363  INFO 9080 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.threads.daemon
+2019-04-16 21:08:18.363  INFO 9080 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:18.365  INFO 9080 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.memory.max
+2019-04-16 21:08:18.365  INFO 9080 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:18.366  INFO 9080 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : Map -> key = tag , value = [area:heap]
+2019-04-16 21:08:18.366  INFO 9080 --- [http-nio-8080-exec-3] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.memory.used
+2019-04-16 21:08:18.366  INFO 9080 --- [http-nio-8080-exec-3] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:18.366  INFO 9080 --- [http-nio-8080-exec-3] com.liujie.config.fillter.MyCorseFilter  : Map -> key = tag , value = [area:heap]
+2019-04-16 21:08:18.370  INFO 9080 --- [http-nio-8080-exec-2] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.memory.committed
+2019-04-16 21:08:18.371  INFO 9080 --- [http-nio-8080-exec-2] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:18.389  INFO 9080 --- [http-nio-8080-exec-9] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.memory.used
+2019-04-16 21:08:18.389  INFO 9080 --- [http-nio-8080-exec-10] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.memory.max
+2019-04-16 21:08:18.399  INFO 9080 --- [http-nio-8080-exec-10] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:18.394  INFO 9080 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.memory.used
+2019-04-16 21:08:18.399  INFO 9080 --- [http-nio-8080-exec-2] com.liujie.config.fillter.MyCorseFilter  : Map -> key = tag , value = [area:heap]
+2019-04-16 21:08:18.399  INFO 9080 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:18.399  INFO 9080 --- [http-nio-8080-exec-4] com.liujie.config.fillter.MyCorseFilter  : Map -> key = tag , value = [area:nonheap,id:Metaspace]
+2019-04-16 21:08:18.399  INFO 9080 --- [http-nio-8080-exec-9] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:18.403  INFO 9080 --- [http-nio-8080-exec-9] com.liujie.config.fillter.MyCorseFilter  : Map -> key = tag , value = [area:nonheap]
+2019-04-16 21:08:18.399  INFO 9080 --- [http-nio-8080-exec-10] com.liujie.config.fillter.MyCorseFilter  : Map -> key = tag , value = [area:nonheap]
+2019-04-16 21:08:18.413  INFO 9080 --- [http-nio-8080-exec-10] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics/jvm.memory.committed
+2019-04-16 21:08:18.414  INFO 9080 --- [http-nio-8080-exec-10] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:18.414  INFO 9080 --- [http-nio-8080-exec-10] com.liujie.config.fillter.MyCorseFilter  : Map -> key = tag , value = [area:nonheap]
+2019-04-16 21:08:19.937  INFO 9080 --- [http-nio-8080-exec-6] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
+2019-04-16 21:08:19.938  INFO 9080 --- [http-nio-8080-exec-6] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:20.073  INFO 9080 --- [Thread-73] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
+2019-04-16 21:08:20.078  INFO 9080 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
+2019-04-16 21:08:30.074  INFO 9080 --- [Thread-73] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
+2019-04-16 21:08:30.075  INFO 9080 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
+2019-04-16 21:08:39.947  INFO 9080 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
+2019-04-16 21:08:39.948  INFO 9080 --- [http-nio-8080-exec-5] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:08:40.075  INFO 9080 --- [Thread-73] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
+2019-04-16 21:08:40.078  INFO 9080 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
+2019-04-16 21:08:50.075  INFO 9080 --- [Thread-73] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
+2019-04-16 21:08:50.079  INFO 9080 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
+2019-04-16 21:08:59.939  INFO 9080 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
+2019-04-16 21:08:59.939  INFO 9080 --- [http-nio-8080-exec-1] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-16 21:09:00.076  INFO 9080 --- [Thread-73] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
+2019-04-16 21:09:00.077  INFO 9080 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
+2019-04-16 21:09:10.076  INFO 9080 --- [Thread-73] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
+2019-04-16 21:09:10.079  INFO 9080 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息

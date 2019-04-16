@@ -14,6 +14,7 @@
         <module name="config-client" />
         <module name="config-server" />
         <module name="eureka-registry" />
+        <module name="file-upload" />
         <module name="rabbitmq-demo" />
         <module name="server" />
         <module name="zuul-gateway" />
@@ -28,6 +29,7 @@
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="eureka-registry" target="1.8" />
+      <module name="file-upload" target="1.8" />
       <module name="liujie-cloud" target="1.8" />
       <module name="rabbitmq-demo" target="1.8" />
       <module name="server" target="1.8" />

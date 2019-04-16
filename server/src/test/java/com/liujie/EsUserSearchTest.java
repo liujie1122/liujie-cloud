@@ -1,7 +1,7 @@
 package com.liujie;
 
-import com.liujie.pojo.user.User;
-import com.liujie.pojo.user.UserSearch;
+import com.liujie.upload.pojo.user.User;
+import com.liujie.upload.pojo.user.UserSearch;
 import com.liujie.repository.UserSearchRepository;
 import org.elasticsearch.index.query.MatchQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
@@ -22,9 +22,7 @@ import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilde
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Random;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = ServerApplication.class)

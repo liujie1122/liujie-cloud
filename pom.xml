@@ -20,6 +20,7 @@
         <module>cloud-config</module>
         <module>server</module>
         <module>rabbitmq-demo</module>
+        <module>file-upload</module>
     </modules>
 
     <properties>
