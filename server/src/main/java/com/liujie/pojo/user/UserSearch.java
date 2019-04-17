@@ -1,4 +1,4 @@
-package com.liujie.upload.pojo.user;
+package com.liujie.pojo.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

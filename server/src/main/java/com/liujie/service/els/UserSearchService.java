@@ -1,6 +1,6 @@
 package com.liujie.service.els;
 
-import com.liujie.upload.pojo.user.UserSearch;
+import com.liujie.pojo.user.UserSearch;
 import com.liujie.repository.UserSearchRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;

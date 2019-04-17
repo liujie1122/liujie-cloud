@@ -784,3 +784,117 @@ Using generated security password: 0fd113e5-2747-4984-967d-dffddcd8c822
 2019-04-16 21:09:00.077  INFO 9080 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
 2019-04-16 21:09:10.076  INFO 9080 --- [Thread-73] com.liujie.thread.ProducerThread         : 生产线生产了一条消息
 2019-04-16 21:09:10.079  INFO 9080 --- [SimpleAsyncTaskExecutor-1] com.liujie.rabbit.ConsumerListener       : 我是消费者，我收到一条新的消息:我在尝试用Spring整合RabbitMq发送消息
+2019-04-17 15:43:31.924  INFO 57476 --- [restartedMain] com.liujie.ServerApplication             : The following profiles are active: test
+2019-04-17 15:43:32.109  INFO 57476 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7fb8dcb: startup date [Wed Apr 17 15:43:32 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7dfdb99b
+2019-04-17 15:43:52.362  INFO 57476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-17 15:43:53.071  INFO 57476 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.liujie.dao.UserDao.
+2019-04-17 15:43:53.517  INFO 57476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-17 15:43:53.881  INFO 57476 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.liujie.dao.UserDao.
+2019-04-17 15:43:53.887  INFO 57476 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.liujie.repository.ItemRepository.
+2019-04-17 15:43:53.893  INFO 57476 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.liujie.repository.StudentRepository.
+2019-04-17 15:43:53.898  INFO 57476 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.liujie.repository.UserSearchRepository.
+2019-04-17 15:44:01.269  INFO 57476 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a94aeeac-4e6c-3080-b914-9ab5a6e70b39
+2019-04-17 15:44:01.438  INFO 57476 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-17 15:44:02.113  INFO 57476 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$3ea3923c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-17 15:44:03.538  INFO 57476 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9451d70b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-17 15:44:15.813  INFO 57476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-17 15:44:16.137  INFO 57476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-17 15:44:16.141  INFO 57476 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-04-17 15:44:16.318  INFO 57476 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\maven\apache-maven-3.5.2\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\刘杰\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;.]
+2019-04-17 15:44:18.249  INFO 57476 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-17 15:44:18.256  INFO 57476 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 46143 ms
+2019-04-17 15:44:20.996  WARN 57476 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-17 15:44:21.000  INFO 57476 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-17 15:44:21.196  INFO 57476 --- [localhost-startStop-1] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6a2fa3a5
+2019-04-17 15:44:34.344  INFO 57476 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : no modules loaded
+2019-04-17 15:44:34.422  INFO 57476 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-04-17 15:44:34.425  INFO 57476 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-04-17 15:44:34.426  INFO 57476 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-04-17 15:44:34.428  INFO 57476 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-04-17 15:44:34.429  INFO 57476 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-04-17 15:44:44.734  INFO 57476 --- [localhost-startStop-1] o.s.d.e.c.TransportClientFactoryBean     : Adding transport node : 192.168.1.211:9300
+2019-04-17 15:44:57.468  INFO 57476 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-17 15:44:57.473  INFO 57476 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-04-17 15:44:57.473  INFO 57476 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'sessionRepositoryFilter' to: [/*]
+2019-04-17 15:44:57.483  INFO 57476 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-17 15:44:57.483  INFO 57476 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'myCorseFilter' to: [/*]
+2019-04-17 15:44:57.484  INFO 57476 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-04-17 15:44:57.489  INFO 57476 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-04-17 15:44:57.505  INFO 57476 --- [localhost-startStop-1] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-04-17 15:45:00.414  WARN 57476 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.liujie.dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-04-17 15:45:02.396  INFO 57476 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-04-17 15:45:02.620  INFO 57476 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-17 15:45:05.040 ERROR 57476 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in com.liujie.service.sql.UserService required a bean of type 'com.liujie.dao.UserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.liujie.dao.UserDao' in your configuration.
+
+2019-04-17 16:02:18.566  INFO 60276 --- [restartedMain] com.liujie.ServerApplication             : The following profiles are active: test
+2019-04-17 16:02:18.636  INFO 60276 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@49f9f188: startup date [Wed Apr 17 16:02:18 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@525010da
+2019-04-17 16:02:23.480  INFO 60276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-17 16:02:23.687  INFO 60276 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.liujie.dao.UserDao.
+2019-04-17 16:02:23.800  INFO 60276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-17 16:02:23.874  INFO 60276 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.liujie.dao.UserDao.
+2019-04-17 16:02:23.878  INFO 60276 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.liujie.repository.ItemRepository.
+2019-04-17 16:02:23.879  INFO 60276 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.liujie.repository.StudentRepository.
+2019-04-17 16:02:23.882  INFO 60276 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.liujie.repository.UserSearchRepository.
+2019-04-17 16:02:25.641  INFO 60276 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a94aeeac-4e6c-3080-b914-9ab5a6e70b39
+2019-04-17 16:02:25.702  INFO 60276 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-17 16:02:25.773  INFO 60276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$e68fb852] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-17 16:02:26.140  INFO 60276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3c3dfd21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-17 16:02:28.639  INFO 60276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-17 16:02:28.735  INFO 60276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-17 16:02:28.739  INFO 60276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-04-17 16:02:28.775  INFO 60276 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\maven\apache-maven-3.5.2\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\刘杰\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;.]
+2019-04-17 16:02:29.423  INFO 60276 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-17 16:02:29.424  INFO 60276 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10788 ms
+2019-04-17 16:02:30.244  WARN 60276 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-17 16:02:30.245  INFO 60276 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-17 16:02:30.285  INFO 60276 --- [localhost-startStop-1] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7a9da480
+2019-04-17 16:02:33.432  INFO 60276 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : no modules loaded
+2019-04-17 16:02:33.437  INFO 60276 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-04-17 16:02:33.438  INFO 60276 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-04-17 16:02:33.441  INFO 60276 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-04-17 16:02:33.444  INFO 60276 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-04-17 16:02:33.445  INFO 60276 --- [localhost-startStop-1] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-04-17 16:02:36.583  INFO 60276 --- [localhost-startStop-1] o.s.d.e.c.TransportClientFactoryBean     : Adding transport node : 192.168.1.211:9300
+2019-04-17 16:03:02.075  INFO 60276 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-17 16:03:02.079  INFO 60276 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-04-17 16:03:02.079  INFO 60276 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'sessionRepositoryFilter' to: [/*]
+2019-04-17 16:03:02.082  INFO 60276 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-17 16:03:02.082  INFO 60276 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'myCorseFilter' to: [/*]
+2019-04-17 16:03:02.087  INFO 60276 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-04-17 16:03:02.091  INFO 60276 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-04-17 16:03:02.101  INFO 60276 --- [localhost-startStop-1] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-04-17 16:03:02.837  WARN 60276 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.liujie.dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-04-17 16:03:20.472  INFO 60276 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-04-17 16:03:20.623  INFO 60276 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-17 16:03:22.368 ERROR 60276 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in com.liujie.service.sql.UserService required a bean of type 'com.liujie.dao.UserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.liujie.dao.UserDao' in your configuration.
+

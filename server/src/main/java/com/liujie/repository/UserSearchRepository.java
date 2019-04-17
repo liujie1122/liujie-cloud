@@ -1,6 +1,6 @@
 package com.liujie.repository;
 
-import com.liujie.upload.pojo.user.UserSearch;
+import com.liujie.pojo.user.UserSearch;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
 import java.util.List;

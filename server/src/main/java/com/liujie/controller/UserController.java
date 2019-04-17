@@ -2,7 +2,7 @@ package com.liujie.controller;
 
 import com.liujie.enums.ExceptionEnum;
 import com.liujie.exception.MyException;
-import com.liujie.upload.pojo.user.User;
+import com.liujie.pojo.user.User;
 import com.liujie.service.sql.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

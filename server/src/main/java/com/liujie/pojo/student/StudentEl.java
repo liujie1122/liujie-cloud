@@ -1,4 +1,4 @@
-package com.liujie.upload.pojo.student;
+package com.liujie.pojo.student;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;

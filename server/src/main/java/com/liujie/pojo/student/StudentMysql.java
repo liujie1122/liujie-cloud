@@ -1,4 +1,4 @@
-package com.liujie.upload.pojo.student;
+package com.liujie.pojo.student;
 
 
 //@Entity
