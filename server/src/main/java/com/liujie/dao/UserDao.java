@@ -1,7 +1,7 @@
 package com.liujie.dao;
 
 
-import com.liujie.upload.pojo.user.User;
+import com.liujie.pojo.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 

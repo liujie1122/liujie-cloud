@@ -1,6 +1,6 @@
 package com.liujie;
 
-import com.liujie.upload.pojo.student.StudentEl;
+import com.liujie.pojo.student.StudentEl;
 import com.liujie.repository.StudentRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;

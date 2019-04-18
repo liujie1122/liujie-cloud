@@ -1,7 +1,7 @@
 package com.liujie;
 
-import com.liujie.upload.pojo.user.User;
-import com.liujie.upload.pojo.user.UserSearch;
+import com.liujie.pojo.user.User;
+import com.liujie.pojo.user.UserSearch;
 import com.liujie.repository.UserSearchRepository;
 import org.elasticsearch.index.query.MatchQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;

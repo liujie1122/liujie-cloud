@@ -2,7 +2,7 @@ package com.liujie;
 
 
 
-import com.liujie.upload.pojo.Item;
+import com.liujie.pojo.Item;
 import com.liujie.repository.ItemRepository;
 import org.elasticsearch.index.query.MatchQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
