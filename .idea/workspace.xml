@@ -1,52 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f7657b6-fa77-4d46-af0f-d035b5bd836a" name="Default" comment="lj">
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/.mvn/wrapper/maven-wrapper.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/.mvn/wrapper/maven-wrapper.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/log/threem.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/mvnw" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/mvnw.cmd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/ThreemApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/base/container/DataContainer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/base/response/FileServerResponse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/base/response/ResponseCode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/base/response/ServerResponse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/base/response/fileDataStruct.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/config/classicConverter/LogIpConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/config/filter/CorsFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/config/interceptor/LoginInterceptorConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/config/security/SecurityPermitAllConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/config/startupRunner/MyStartupRunner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/config/webMvc/MyWebAppConfigurer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/result/ResponseResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/result/Result.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/server/controller/FileUpLoadController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/utils/DateUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/utils/GetResourceUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/utils/HttpUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/utils/MD5Utils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/utils/PageResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/utils/ReflectionUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/java/com/zjty/threem/utils/UUIDUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/resources/application-dev.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/resources/application-doc.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/resources/application-prod.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/resources/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/resources/~$三员接口文档.docx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/main/resources/三员接口文档.docx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/src/test/java/com/zjty/threem/ThreemApplicationTests.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/file-upload2/三员接口文档.docx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/log/admin-server.log.2019-04-16.0.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/log/admin-server.log.2019-04-17.0.gz" />
+    <list default="true" id="1f7657b6-fa77-4d46-af0f-d035b5bd836a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/file-upload/file-upload.iml" afterPath="$PROJECT_DIR$/file-upload/file-upload.iml" />
-      <change beforePath="$PROJECT_DIR$/log/admin-server.log" afterPath="$PROJECT_DIR$/log/admin-server.log" />
-      <change beforePath="$PROJECT_DIR$/log/file-upload.log" afterPath="$PROJECT_DIR$/log/file-upload.log" />
-      <change beforePath="$PROJECT_DIR$/log/liujie-server.log" afterPath="$PROJECT_DIR$/log/liujie-server.log" />
-      <change beforePath="$PROJECT_DIR$/server/server.iml" afterPath="$PROJECT_DIR$/server/server.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -311,6 +267,11 @@
             <path>
               <item name="liujie-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="liujie-cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liujie-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liujie-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="file-upload2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -701,7 +662,7 @@
       <workItem from="1555486810847" duration="3479000" />
       <workItem from="1555501045247" duration="1360000" />
       <workItem from="1555597362649" duration="19000" />
-      <workItem from="1555599068637" duration="2579000" />
+      <workItem from="1555599068637" duration="2620000" />
     </task>
     <task id="LOCAL-00001" summary="lj">
       <created>1555122967907</created>
@@ -780,7 +741,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555601609902</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="lj">
+      <created>1555601719219</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555601719219</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -816,7 +784,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121854000" />
+    <option name="totallyTimeSpent" value="121895000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
