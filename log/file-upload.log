@@ -6604,3 +6604,164 @@ Action:
 
 Consider defining a bean of type 'com.liujie.dao.UserDao' in your configuration.
 
+2019-04-17 19:39:15.093  INFO 4600 --- [restartedMain] com.liujie.FileUploadApplication         : The following profiles are active: dev
+2019-04-17 19:39:15.112  INFO 4600 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@780ae4dd: startup date [Wed Apr 17 19:39:15 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@32afa757
+2019-04-17 19:39:19.372  INFO 4600 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2019-04-17 19:39:20.146  INFO 4600 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6fa22f0c-5ba6-3b07-9599-e1c311336441
+2019-04-17 19:39:20.258  INFO 4600 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-17 19:39:20.525  INFO 4600 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$35a56254] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-17 19:39:20.610  INFO 4600 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$51bf6551] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-17 19:39:22.062  INFO 4600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10011 (http)
+2019-04-17 19:39:22.267  INFO 4600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-17 19:39:22.267  INFO 4600 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-04-17 19:39:22.273  INFO 4600 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\ProgramFiles\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\ProgramFiles\Java\jdk1.8.0_101\bin;D:\ProgramFiles\Java\jdk1.8.0_101\jre\bin;D:\maven\apache-maven-3.6.0\bin;D:\ProgramFiles\Git\cmd;D:\ProgramFiles\MySQL\MySQL Server 5.5\bin;C:\Users\liujie\AppData\Local\Microsoft\WindowsApps;;.]
+2019-04-17 19:39:22.384  INFO 4600 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-17 19:39:22.385  INFO 4600 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7273 ms
+2019-04-17 19:39:22.613  WARN 4600 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-17 19:39:22.614  INFO 4600 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-17 19:39:22.629  INFO 4600 --- [localhost-startStop-1] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@494bb2cf
+2019-04-17 19:39:23.211  INFO 4600 --- [localhost-startStop-1] o.s.aop.framework.CglibAopProxy          : Method [void com.zaxxer.hikari.HikariConfig.seal()] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2019-04-17 19:39:27.652  INFO 4600 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-17 19:39:27.653  INFO 4600 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-04-17 19:39:27.654  INFO 4600 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-17 19:39:27.655  INFO 4600 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'myCorseFilter' to: [/*]
+2019-04-17 19:39:27.655  INFO 4600 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-04-17 19:39:27.655  INFO 4600 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-04-17 19:39:27.819  INFO 4600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-17 19:39:28.100  INFO 4600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-17 19:39:28.157  INFO 4600 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-04-17 19:39:28.172  INFO 4600 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-17 19:39:28.299  INFO 4600 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-04-17 19:39:28.302  INFO 4600 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-17 19:39:28.369  INFO 4600 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-17 19:39:28.593  INFO 4600 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-04-17 19:39:29.282  INFO 4600 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-17 19:39:30.716  WARN 4600 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-17 19:39:30.813  INFO 4600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/deleteUser],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.DemoController.deleteUser(java.lang.String)
+2019-04-17 19:39:30.815  INFO 4600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/createUser],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.DemoController.createUser(com.liujie.pojo.User)
+2019-04-17 19:39:30.815  INFO 4600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/updateUser],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.DemoController.updateUser(com.liujie.pojo.User)
+2019-04-17 19:39:30.816  INFO 4600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demoController/queryUser],methods=[GET]}" onto public org.springframework.http.ResponseEntity com.liujie.controller.DemoController.queryUser(java.lang.Integer)
+2019-04-17 19:39:30.818  INFO 4600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/file/upload],methods=[POST]}" onto public com.liujie.base.response.ServerResponse com.liujie.controller.FileUpLoadController.fileUpload(org.springframework.web.multipart.MultipartFile)
+2019-04-17 19:39:30.823  INFO 4600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/findAllByAge],methods=[GET]}" onto public java.util.List<com.liujie.pojo.User> com.liujie.controller.UserController.findAllByAge()
+2019-04-17 19:39:30.824  INFO 4600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-04-17 19:39:30.829  INFO 4600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-04-17 19:39:30.831  INFO 4600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-04-17 19:39:30.833  INFO 4600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-04-17 19:39:30.838  INFO 4600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-17 19:39:30.839  INFO 4600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-17 19:39:31.044  INFO 4600 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoint(s) beneath base path '/actuator'
+2019-04-17 19:39:31.075  INFO 4600 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-17 19:39:31.468  INFO 4600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@780ae4dd: startup date [Wed Apr 17 19:39:15 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@32afa757
+2019-04-17 19:39:31.595  WARN 4600 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-17 19:39:31.595  INFO 4600 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-17 19:39:32.620  INFO 4600 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 73e3391e-e0fc-48fb-8f75-83b68d6fff34
+
+2019-04-17 19:39:33.201  INFO 4600 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3337c40e, org.springframework.security.web.context.SecurityContextPersistenceFilter@64e540a4, org.springframework.security.web.header.HeaderWriterFilter@2fb3cdfc, org.springframework.security.web.authentication.logout.LogoutFilter@8bd2ad8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@122c1415, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@756fa992, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ef4806a, org.springframework.security.web.session.SessionManagementFilter@133cbce2, org.springframework.security.web.access.ExceptionTranslationFilter@2091657b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@733c0db1]
+2019-04-17 19:39:33.318  WARN 4600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-04-17 19:39:33.689  INFO 4600 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-04-17 19:39:33.693  INFO 4600 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-04-17 19:39:33.709  INFO 4600 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-04-17 19:39:33.709  INFO 4600 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-04-17 19:39:33.713  INFO 4600 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-04-17 19:39:33.721  INFO 4600 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-04-17 19:39:33.732  INFO 4600 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-04-17 19:39:33.756  INFO 4600 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=780ae4dd,type=ConfigurationPropertiesRebinder]
+2019-04-17 19:39:33.764  INFO 4600 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-04-17 19:39:33.775  INFO 4600 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2019-04-17 19:39:33.799  INFO 4600 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-04-17 19:39:33.853  INFO 4600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-04-17 19:39:34.016  INFO 4600 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-04-17 19:39:34.016  INFO 4600 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-04-17 19:39:34.175  INFO 4600 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-04-17 19:39:34.175  INFO 4600 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-04-17 19:39:34.564  INFO 4600 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-04-17 19:39:34.802  INFO 4600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-04-17 19:39:34.802  INFO 4600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-04-17 19:39:34.802  INFO 4600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-04-17 19:39:34.802  INFO 4600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-04-17 19:39:34.802  INFO 4600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-04-17 19:39:34.802  INFO 4600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-04-17 19:39:34.802  INFO 4600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-04-17 19:39:35.005  INFO 4600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-04-17 19:39:35.009  INFO 4600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-04-17 19:39:35.013  INFO 4600 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-17 19:39:35.025  INFO 4600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1555501175021 with initial instances count: 1
+2019-04-17 19:39:35.037  INFO 4600 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application file-upload with eureka with status UP
+2019-04-17 19:39:35.037  INFO 4600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1555501175037, current=UP, previous=STARTING]
+2019-04-17 19:39:35.045  INFO 4600 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2019-04-17 19:39:35.045  INFO 4600 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-17 19:39:35.048  INFO 4600 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FILE-UPLOAD/file-upload:10011: registering service...
+2019-04-17 19:39:35.080  INFO 4600 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-17 19:39:35.099  INFO 4600 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-17 19:39:35.103  INFO 4600 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FILE-UPLOAD/file-upload:10011 - registration status: 204
+2019-04-17 19:39:35.282  WARN 4600 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Coercing to be of type string. This may not even be a scalar type in actuality
+2019-04-17 19:39:35.286  WARN 4600 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Coercing to be of type string. This may not even be a scalar type in actuality
+2019-04-17 19:39:35.383  INFO 4600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 10011 (http) with context path ''
+2019-04-17 19:39:35.387  INFO 4600 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 10011
+2019-04-17 19:39:35.391  INFO 4600 --- [restartedMain] com.liujie.FileUploadApplication         : Started FileUploadApplication in 23.873 seconds (JVM running for 25.213)
+2019-04-17 19:39:35.395  INFO 4600 --- [restartedMain] c.l.config.startRun.MyApplicationRunner  : 项目启动后执行该方法。。。。
+2019-04-17 19:39:35.398  INFO 4600 --- [restartedMain] c.l.config.startRun.MyApplicationRunner  : 检查文件上传路径是否存在
+2019-04-17 19:39:35.398  INFO 4600 --- [restartedMain] c.l.config.startRun.MyApplicationRunner  : 系统检查到文件上传路径已经存在:static\uplaods
+2019-04-17 19:39:35.907  INFO 4600 --- [RMI TCP Connection(14)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-17 19:39:35.907  INFO 4600 --- [RMI TCP Connection(14)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-17 19:39:35.935  INFO 4600 --- [RMI TCP Connection(14)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2019-04-17 19:40:01.230  INFO 4600 --- [http-nio-10011-exec-10] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
+2019-04-17 19:40:01.230  INFO 4600 --- [http-nio-10011-exec-10] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.239  WARN 4600 --- [http-nio-10011-exec-10] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/health] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.363  INFO 4600 --- [http-nio-10011-exec-9] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator
+2019-04-17 19:40:01.363  INFO 4600 --- [http-nio-10011-exec-9] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.409  INFO 4600 --- [http-nio-10011-exec-8] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
+2019-04-17 19:40:01.409  INFO 4600 --- [http-nio-10011-exec-8] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.409  INFO 4600 --- [http-nio-10011-exec-7] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/env
+2019-04-17 19:40:01.409  INFO 4600 --- [http-nio-10011-exec-7] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.410  WARN 4600 --- [http-nio-10011-exec-8] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/health] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.411  INFO 4600 --- [http-nio-10011-exec-6] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/metrics
+2019-04-17 19:40:01.411  WARN 4600 --- [http-nio-10011-exec-7] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/env] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.411  INFO 4600 --- [http-nio-10011-exec-6] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.412  WARN 4600 --- [http-nio-10011-exec-6] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/metrics] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.414  INFO 4600 --- [http-nio-10011-exec-5] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/httptrace
+2019-04-17 19:40:01.414  INFO 4600 --- [http-nio-10011-exec-5] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.419  WARN 4600 --- [http-nio-10011-exec-5] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/httptrace] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.419  INFO 4600 --- [http-nio-10011-exec-8] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/trace
+2019-04-17 19:40:01.419  INFO 4600 --- [http-nio-10011-exec-8] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.423  WARN 4600 --- [http-nio-10011-exec-8] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/trace] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.456  INFO 4600 --- [http-nio-10011-exec-14] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/auditevents
+2019-04-17 19:40:01.457  INFO 4600 --- [http-nio-10011-exec-13] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/info
+2019-04-17 19:40:01.457  INFO 4600 --- [http-nio-10011-exec-13] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.457  INFO 4600 --- [http-nio-10011-exec-14] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.459  WARN 4600 --- [http-nio-10011-exec-13] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/info] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.459  WARN 4600 --- [http-nio-10011-exec-14] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/auditevents] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.466  INFO 4600 --- [http-nio-10011-exec-15] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/loggers
+2019-04-17 19:40:01.467  INFO 4600 --- [http-nio-10011-exec-15] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.466  INFO 4600 --- [http-nio-10011-exec-7] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/flyway
+2019-04-17 19:40:01.467  WARN 4600 --- [http-nio-10011-exec-15] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/loggers] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.468  INFO 4600 --- [http-nio-10011-exec-3] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/threaddump
+2019-04-17 19:40:01.468  INFO 4600 --- [http-nio-10011-exec-3] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.468  INFO 4600 --- [http-nio-10011-exec-13] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/refresh
+2019-04-17 19:40:01.469  INFO 4600 --- [http-nio-10011-exec-13] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.469  INFO 4600 --- [http-nio-10011-exec-4] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/dump
+2019-04-17 19:40:01.469  INFO 4600 --- [http-nio-10011-exec-4] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.469  INFO 4600 --- [http-nio-10011-exec-12] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/heapdump
+2019-04-17 19:40:01.469  WARN 4600 --- [http-nio-10011-exec-13] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/refresh] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.469  INFO 4600 --- [http-nio-10011-exec-12] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.467  INFO 4600 --- [http-nio-10011-exec-7] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.470  WARN 4600 --- [http-nio-10011-exec-4] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/dump] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.470  INFO 4600 --- [http-nio-10011-exec-5] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/jolokia
+2019-04-17 19:40:01.484  INFO 4600 --- [http-nio-10011-exec-5] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.484  WARN 4600 --- [http-nio-10011-exec-12] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/heapdump] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.485  WARN 4600 --- [http-nio-10011-exec-5] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/jolokia] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.490  WARN 4600 --- [http-nio-10011-exec-7] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/flyway] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.472  WARN 4600 --- [http-nio-10011-exec-3] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/threaddump] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.493  INFO 4600 --- [http-nio-10011-exec-16] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/liquibase
+2019-04-17 19:40:01.494  INFO 4600 --- [http-nio-10011-exec-16] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.495  WARN 4600 --- [http-nio-10011-exec-16] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/liquibase] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:01.482  INFO 4600 --- [http-nio-10011-exec-11] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/logfile
+2019-04-17 19:40:01.498  INFO 4600 --- [http-nio-10011-exec-11] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:01.500  WARN 4600 --- [http-nio-10011-exec-11] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/logfile] in DispatcherServlet with name 'dispatcherServlet'
+2019-04-17 19:40:14.182  INFO 4600 --- [http-nio-10011-exec-9] com.liujie.config.fillter.MyCorseFilter  : RequestURI = /actuator/health
+2019-04-17 19:40:14.182  INFO 4600 --- [http-nio-10011-exec-9] com.liujie.config.fillter.MyCorseFilter  : contentType = null
+2019-04-17 19:40:14.186  WARN 4600 --- [http-nio-10011-exec-9] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/actuator/health] in DispatcherServlet with name 'dispatcherServlet'
