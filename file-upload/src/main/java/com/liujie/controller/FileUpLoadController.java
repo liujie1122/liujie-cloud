@@ -5,9 +5,11 @@ import com.liujie.base.response.ServerResponse;
 import com.liujie.result.Result;
 import com.liujie.utils.UUIDUtils;
 import io.swagger.annotations.Api;
+import org.apache.tomcat.util.http.fileupload.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.util.ResourceUtils;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -82,6 +84,34 @@ public class FileUpLoadController {
             return ServerResponse.success(result);
         } catch (Exception e) {
             e.printStackTrace();
+            logger.error("e"+e.getMessage()+"e.toString()"+e.toString());
+            Result<String> result = new Result<>();
+            result.setData("文件上传失败，请稍后重试！！！");
+            result.setResult(false);
+            return ServerResponse.error(ResponseCode.UNAUTHORIZED,"文件上传失败，请稍后重试！！！",result);
+        }
+    }
+
+    @PostMapping("/upload1")
+    public ServerResponse fileUpload1(@RequestParam("file") MultipartFile file) {
+        try {
+            File path = new File(ResourceUtils.getURL("classpath:").getPath());
+            if(!path.exists()) {
+                path = new File("");
+            }
+            File upload = new File(path.getAbsolutePath(),"static/upload/");
+            if(!upload.exists()) {
+                upload.mkdirs();
+            }
+//            File uploadFile = new File(path.getAbsolutePath(),"static/upload/test.jpg");
+//            FileUtils.copyInputStreamToFile(inputStream, uploadFile);
+
+//            String url = "http://" + localHost + ":" + port + "/" + uploadPath + uuidFileName;
+            Result<String> result = new Result<String>();
+            result.setData("1");
+            result.setResult(true);
+            return ServerResponse.success(result);
+        } catch (Exception e) {
             logger.error("e"+e.getMessage()+"e.toString()"+e.toString());
             Result<String> result = new Result<>();
             result.setData("文件上传失败，请稍后重试！！！");
