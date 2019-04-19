@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f7657b6-fa77-4d46-af0f-d035b5bd836a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/file-upload/src/main/java/com/liujie/utils/GetServerRealPathUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file-upload/file-upload.iml" afterPath="$PROJECT_DIR$/file-upload/file-upload.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file-upload/pom.xml" afterPath="$PROJECT_DIR$/file-upload/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file-upload/src/main/java/com/liujie/controller/FileUpLoadController.java" afterPath="$PROJECT_DIR$/file-upload/src/main/java/com/liujie/controller/FileUpLoadController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file-upload/src/main/java/com/liujie/service/UserService.java" afterPath="$PROJECT_DIR$/file-upload/src/main/java/com/liujie/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file-upload/src/main/resources/application-dev.properties" afterPath="$PROJECT_DIR$/file-upload/src/main/resources/application-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file-upload/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/file-upload/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/file-upload.log" afterPath="$PROJECT_DIR$/log/file-upload.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/pom.xml" afterPath="$PROJECT_DIR$/server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.iml" afterPath="$PROJECT_DIR$/server/server.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -758,7 +748,7 @@
       <workItem from="1555486810847" duration="3479000" />
       <workItem from="1555492719818" duration="832000" />
       <workItem from="1555549031225" duration="5906000" />
-      <workItem from="1555638744033" duration="25000" />
+      <workItem from="1555638744033" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="lj">
       <created>1555122967907</created>
@@ -830,7 +820,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555488256510</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="lj">
+      <created>1555638787083</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555638787083</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -866,7 +863,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124659000" />
+    <option name="totallyTimeSpent" value="124680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1246,6 +1243,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-21">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
