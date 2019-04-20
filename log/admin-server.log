@@ -1316,3 +1316,1087 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 2019-04-18 23:33:30.207  INFO 2560 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (cafc86465f44) missing in DiscoveryClient services 
 2019-04-18 23:33:35.214  INFO 2560 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (cafc86465f44) missing in DiscoveryClient services 
 2019-04-18 23:33:40.227  INFO 2560 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (cafc86465f44) missing in DiscoveryClient services 
+2019-04-19 09:58:40.202  INFO 74792 --- [restartedMain] com.liujie.AdminServerApplication        : No active profile set, falling back to default profiles: default
+2019-04-19 09:58:40.257  INFO 74792 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f330a00: startup date [Fri Apr 19 09:58:40 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@69886c4
+2019-04-19 09:58:47.305  INFO 74792 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e2f43e13-77de-3806-8cf7-61327ed3558b
+2019-04-19 09:58:47.381  INFO 74792 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-19 09:58:47.685  INFO 74792 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$edbb3358] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-19 09:58:50.064  INFO 74792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 12315 (http)
+2019-04-19 09:58:50.153  INFO 74792 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-19 09:58:50.154  INFO 74792 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-04-19 09:58:50.168  INFO 74792 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\maven\apache-maven-3.5.2\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\刘杰\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;.]
+2019-04-19 09:58:51.250  INFO 74792 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-19 09:58:51.252  INFO 74792 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10996 ms
+2019-04-19 09:58:52.591  WARN 74792 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-19 09:58:52.594  INFO 74792 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-19 09:58:52.623  INFO 74792 --- [localhost-startStop-1] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6918ee9b
+2019-04-19 09:59:00.629  INFO 74792 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-19 09:59:00.633  INFO 74792 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-04-19 09:59:00.637  INFO 74792 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-19 09:59:00.637  INFO 74792 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-19 09:59:00.639  INFO 74792 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-19 09:59:00.641  INFO 74792 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-19 09:59:00.645  INFO 74792 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-04-19 09:59:00.646  INFO 74792 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-04-19 09:59:01.367  WARN 74792 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-19 09:59:01.367  INFO 74792 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-19 09:59:02.691  INFO 74792 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-19 09:59:03.409  INFO 74792 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f330a00: startup date [Fri Apr 19 09:58:40 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@69886c4
+2019-04-19 09:59:03.859  INFO 74792 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-19 09:59:03.862  INFO 74792 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-19 09:59:04.071  INFO 74792 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-19 09:59:05.938  INFO 74792 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-19 09:59:06.387  WARN 74792 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-19 09:59:08.090  INFO 74792 --- [restartedMain] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances/{instanceId}/actuator/**],methods=[GET || HEAD || POST || PUT || PATCH || DELETE || OPTIONS]}" onto public reactor.core.publisher.Mono<java.lang.Void> de.codecentric.boot.admin.server.web.servlet.InstancesProxyController.endpointProxy(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2019-04-19 09:59:08.128  INFO 74792 --- [restartedMain] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances],methods=[POST],consumes=[application/json]}" onto public reactor.core.publisher.Mono<org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, de.codecentric.boot.admin.server.domain.values.InstanceId>>> de.codecentric.boot.admin.server.web.InstancesController.register(de.codecentric.boot.admin.server.domain.values.Registration,org.springframework.web.util.UriComponentsBuilder)
+2019-04-19 09:59:08.130  INFO 74792 --- [restartedMain] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances/{id}],methods=[GET],produces=[application/json]}" onto public reactor.core.publisher.Mono<org.springframework.http.ResponseEntity<de.codecentric.boot.admin.server.domain.entities.Instance>> de.codecentric.boot.admin.server.web.InstancesController.instance(java.lang.String)
+2019-04-19 09:59:08.133  INFO 74792 --- [restartedMain] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances/{id}],methods=[DELETE]}" onto public reactor.core.publisher.Mono<org.springframework.http.ResponseEntity<java.lang.Void>> de.codecentric.boot.admin.server.web.InstancesController.unregister(java.lang.String)
+2019-04-19 09:59:08.134  INFO 74792 --- [restartedMain] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances/events],methods=[GET],produces=[application/json]}" onto public reactor.core.publisher.Flux<de.codecentric.boot.admin.server.domain.events.InstanceEvent> de.codecentric.boot.admin.server.web.InstancesController.events()
+2019-04-19 09:59:08.138  INFO 74792 --- [restartedMain] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances],methods=[GET],produces=[application/json]}" onto public reactor.core.publisher.Flux<de.codecentric.boot.admin.server.domain.entities.Instance> de.codecentric.boot.admin.server.web.InstancesController.instances(java.lang.String)
+2019-04-19 09:59:08.139  INFO 74792 --- [restartedMain] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances/events],methods=[GET],produces=[text/event-stream]}" onto public reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<de.codecentric.boot.admin.server.domain.events.InstanceEvent>> de.codecentric.boot.admin.server.web.InstancesController.eventStream()
+2019-04-19 09:59:08.151  INFO 74792 --- [restartedMain] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances/{id}],methods=[GET],produces=[text/event-stream]}" onto public reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<de.codecentric.boot.admin.server.domain.entities.Instance>> de.codecentric.boot.admin.server.web.InstancesController.instanceStream(java.lang.String)
+2019-04-19 09:59:08.157  INFO 74792 --- [restartedMain] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/applications/{name}],methods=[DELETE]}" onto public reactor.core.publisher.Mono<org.springframework.http.ResponseEntity<java.lang.Void>> de.codecentric.boot.admin.server.web.ApplicationsController.unregister(java.lang.String)
+2019-04-19 09:59:08.161  INFO 74792 --- [restartedMain] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/applications],methods=[GET],produces=[text/event-stream]}" onto public reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<de.codecentric.boot.admin.server.web.ApplicationsController$Application>> de.codecentric.boot.admin.server.web.ApplicationsController.applicationsStream()
+2019-04-19 09:59:08.167  INFO 74792 --- [restartedMain] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/applications],methods=[GET],produces=[application/json]}" onto public reactor.core.publisher.Flux<de.codecentric.boot.admin.server.web.ApplicationsController$Application> de.codecentric.boot.admin.server.web.ApplicationsController.applications()
+2019-04-19 09:59:08.179  INFO 74792 --- [restartedMain] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/],methods=[GET],produces=[text/html]}" onto public java.lang.String de.codecentric.boot.admin.server.ui.web.UiController.index()
+2019-04-19 09:59:08.180  INFO 74792 --- [restartedMain] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/login],methods=[GET],produces=[text/html]}" onto public java.lang.String de.codecentric.boot.admin.server.ui.web.UiController.login()
+2019-04-19 09:59:10.596  INFO 74792 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61a04812, org.springframework.security.web.context.SecurityContextPersistenceFilter@c4081a, org.springframework.security.web.header.HeaderWriterFilter@bb426cf, org.springframework.security.web.authentication.logout.LogoutFilter@551b8117, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3577fc78, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@18cfd0f6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a9d296a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78f1c355, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@31dbd560, org.springframework.security.web.session.SessionManagementFilter@6aa70380, org.springframework.security.web.access.ExceptionTranslationFilter@7327883d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@72a5c45d]
+2019-04-19 09:59:11.011  INFO 74792 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-04-19 09:59:11.201  INFO 74792 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2019-04-19 09:59:11.240  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/archaius],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.244  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/auditevents],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.245  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/beans],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.245  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.246  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/conditions],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.249  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/configprops],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.250  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.250  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env/{toMatch}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.251  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.253  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[DELETE],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.253  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.254  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/logfile],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.254  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.254  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers/{name}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.255  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers/{name}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.255  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/heapdump],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.256  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/threaddump],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.258  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/metrics/{requiredMetricName}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.258  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/metrics],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.258  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/scheduledtasks],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.259  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/httptrace],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.259  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/mappings],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.260  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/refresh],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.260  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/features],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.261  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/service-registry],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.263  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/service-registry],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-04-19 09:59:11.265  INFO 74792 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-19 09:59:11.416  INFO 74792 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-04-19 09:59:11.436  INFO 74792 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-04-19 09:59:11.439  INFO 74792 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-04-19 09:59:11.447  INFO 74792 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-04-19 09:59:11.454  INFO 74792 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-04-19 09:59:11.471  INFO 74792 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-04-19 09:59:11.495  INFO 74792 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=f330a00,type=ConfigurationPropertiesRebinder]
+2019-04-19 09:59:11.520  INFO 74792 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2019-04-19 09:59:11.548  INFO 74792 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-04-19 09:59:11.607  INFO 74792 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-04-19 09:59:11.762  INFO 74792 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-04-19 09:59:11.762  INFO 74792 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-04-19 09:59:12.084  INFO 74792 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-04-19 09:59:12.087  INFO 74792 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-04-19 09:59:12.618  INFO 74792 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-04-19 09:59:13.194  INFO 74792 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-04-19 09:59:13.196  INFO 74792 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-04-19 09:59:13.196  INFO 74792 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-04-19 09:59:13.198  INFO 74792 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-04-19 09:59:13.199  INFO 74792 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-04-19 09:59:13.200  INFO 74792 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-04-19 09:59:13.200  INFO 74792 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-04-19 09:59:15.566 ERROR 74792 --- [restartedMain] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1051) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:965) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:414) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:269) [eureka-client-1.9.3.jar:1.9.3]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:63) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:290) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$f5242c77.CGLIB$eurekaClient$2(<generated>) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$f5242c77$$FastClassBySpringCGLIB$$3a46c9e4.invoke(<generated>) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) [spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$f5242c77.eurekaClient(<generated>) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:353) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:390) ~[spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184) ~[spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:350) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) ~[spring-aop-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:167) ~[spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:156) ~[spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:223) ~[spring-core-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:494) ~[spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$993ccbc1.getEurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57) ~[spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:39) ~[spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:80) ~[spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:52) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:157) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:121) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:885) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:161) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at com.liujie.AdminServerApplication.main(AdminServerApplication.java:22) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_101]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_101]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_101]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_101]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_101]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.6.jar:4.5.6]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 82 common frames omitted
+
+2019-04-19 09:59:15.572  WARN 74792 --- [restartedMain] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-04-19 09:59:15.577 ERROR 74792 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVER/admin-server - was unable to refresh its cache! status = Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1051) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:965) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:414) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:269) [eureka-client-1.9.3.jar:1.9.3]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:63) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:290) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$f5242c77.CGLIB$eurekaClient$2(<generated>) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$f5242c77$$FastClassBySpringCGLIB$$3a46c9e4.invoke(<generated>) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) [spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$f5242c77.eurekaClient(<generated>) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:353) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:390) ~[spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184) ~[spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:350) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) ~[spring-aop-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:167) ~[spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:156) ~[spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:223) ~[spring-core-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:494) ~[spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$993ccbc1.getEurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57) ~[spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:39) ~[spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:80) ~[spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:52) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:157) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:121) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:885) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:161) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at com.liujie.AdminServerApplication.main(AdminServerApplication.java:22) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+
+2019-04-19 09:59:15.583  WARN 74792 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
+2019-04-19 09:59:15.588  INFO 74792 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 10
+2019-04-19 09:59:15.592  INFO 74792 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-19 09:59:15.600  INFO 74792 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1555639155597 with initial instances count: 0
+2019-04-19 09:59:15.613  INFO 74792 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application admin-server with eureka with status UP
+2019-04-19 09:59:15.616  INFO 74792 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1555639155616, current=UP, previous=STARTING]
+2019-04-19 09:59:15.618  INFO 74792 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVER/admin-server: registering service...
+2019-04-19 09:59:15.769  INFO 74792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 12315 (http) with context path ''
+2019-04-19 09:59:15.771  INFO 74792 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 12315
+2019-04-19 09:59:15.777  INFO 74792 --- [restartedMain] com.liujie.AdminServerApplication        : Started AdminServerApplication in 40.658 seconds (JVM running for 45.959)
+2019-04-19 09:59:17.717 ERROR 74792 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_101]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_101]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_101]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_101]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_101]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_101]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_101]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.6.jar:4.5.6]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 common frames omitted
+
+2019-04-19 09:59:17.722  WARN 74792 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-04-19 09:59:17.723  WARN 74792 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVER/admin-server - registration failed Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_101]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_101]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+
+2019-04-19 09:59:17.725  WARN 74792 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_101]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_101]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+
+2019-04-19 09:59:20.588  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-04-19 09:59:20.589  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-04-19 09:59:20.589  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-04-19 09:59:20.589  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-04-19 09:59:20.590  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-04-19 09:59:20.590  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-04-19 09:59:20.590  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-04-19 09:59:20.859  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-04-19 09:59:25.609  INFO 74792 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVER/admin-server - Re-registering apps/ADMIN-SERVER
+2019-04-19 09:59:25.610  INFO 74792 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVER/admin-server: registering service...
+2019-04-19 09:59:25.738  INFO 74792 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVER/admin-server - registration status: 204
+2019-04-19 09:59:25.864  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-04-19 09:59:25.864  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-04-19 09:59:25.865  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-04-19 09:59:25.865  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-04-19 09:59:25.866  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-04-19 09:59:25.866  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2019-04-19 09:59:25.866  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-04-19 09:59:25.872  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-04-19 09:59:30.875  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-04-19 09:59:30.877  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-04-19 09:59:30.879  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-04-19 09:59:30.879  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-04-19 09:59:30.881  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-04-19 09:59:30.881  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2019-04-19 09:59:30.881  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-04-19 09:59:30.996  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-04-19 09:59:34.500  INFO 74792 --- [http-nio-12315-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-19 09:59:34.504  INFO 74792 --- [http-nio-12315-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-19 09:59:34.608  INFO 74792 --- [http-nio-12315-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 101 ms
+2019-04-19 10:00:11.770  WARN 74792 --- [http-nio-12315-exec-6] o.s.w.s.m.m.a.ReactiveTypeHandler        : 
+!!!
+Streaming through a reactive type requires an Executor to write to the response.
+Please, configure a TaskExecutor in the MVC config under "async support".
+The SimpleAsyncTaskExecutor currently in use is not suitable under load.
+-------------------------------
+Controller:	de.codecentric.boot.admin.server.web.ApplicationsController
+Method:		applicationsStream
+Returning:	reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<de.codecentric.boot.admin.server.web.ApplicationsController$Application>>
+!!!
+2019-04-19 10:04:13.204  INFO 74792 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-04-19 10:09:13.206  INFO 74792 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-04-19 10:14:13.208  INFO 74792 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-04-19 10:19:13.209  INFO 74792 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-04-19 10:24:13.212  INFO 74792 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-04-19 10:29:13.214  INFO 74792 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-04-19 10:34:13.215  INFO 74792 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-04-19 10:39:13.220  INFO 74792 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-04-19 10:44:13.221  INFO 74792 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-04-19 10:46:02.495 ERROR 74792 --- [http-nio-12315-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1279) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1561) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:371) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297) ~[na:1.8.0_101]
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141) ~[na:1.8.0_101]
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229) ~[na:1.8.0_101]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:121) ~[spring-core-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:103) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:226) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:200) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:190) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:366) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:309) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+
+2019-04-19 10:46:02.532 ERROR 74792 --- [http-nio-12315-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1279) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1561) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:371) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297) ~[na:1.8.0_101]
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141) ~[na:1.8.0_101]
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229) ~[na:1.8.0_101]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:121) ~[spring-core-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:103) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:226) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:200) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:190) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:366) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:309) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+
+2019-04-19 10:46:02.495 ERROR 74792 --- [http-nio-12315-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1279) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1561) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:371) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1100) ~[jackson-core-2.9.6.jar:2.9.6]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:915) ~[jackson-databind-2.9.6.jar:2.9.6]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:288) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:111) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:226) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:200) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:190) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:366) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:309) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+
+2019-04-19 10:46:02.495 ERROR 74792 --- [http-nio-12315-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1279) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1561) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:371) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1100) ~[jackson-core-2.9.6.jar:2.9.6]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:915) ~[jackson-databind-2.9.6.jar:2.9.6]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:288) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:111) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:226) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:200) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:190) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:366) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:309) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+
+2019-04-19 10:46:03.353  WARN 74792 --- [http-nio-12315-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+2019-04-19 10:46:02.495 ERROR 74792 --- [http-nio-12315-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1279) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1561) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:371) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1100) ~[jackson-core-2.9.6.jar:2.9.6]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:915) ~[jackson-databind-2.9.6.jar:2.9.6]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:288) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:111) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:226) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:200) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:190) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:366) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:309) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+
+2019-04-19 10:46:04.007 ERROR 74792 --- [http-nio-12315-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1279) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1561) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:371) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1100) ~[jackson-core-2.9.6.jar:2.9.6]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:915) ~[jackson-databind-2.9.6.jar:2.9.6]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:288) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:111) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:226) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:200) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:190) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:366) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:309) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+
+2019-04-19 10:46:04.015 ERROR 74792 --- [http-nio-12315-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1279) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1561) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:371) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1100) ~[jackson-core-2.9.6.jar:2.9.6]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:915) ~[jackson-databind-2.9.6.jar:2.9.6]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:288) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:111) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:226) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:200) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:190) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:366) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:309) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+
+2019-04-19 10:46:04.035  WARN 74792 --- [http-nio-12315-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+2019-04-19 10:46:04.025 ERROR 74792 --- [http-nio-12315-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1279) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1561) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:371) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1100) ~[jackson-core-2.9.6.jar:2.9.6]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:915) ~[jackson-databind-2.9.6.jar:2.9.6]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:288) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:111) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:226) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:200) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:190) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:366) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:309) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+
+2019-04-19 10:46:04.037  WARN 74792 --- [http-nio-12315-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+2019-04-19 10:46:04.046  WARN 74792 --- [http-nio-12315-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+2019-04-19 10:46:39.641  INFO 74792 --- [reactor-http-nio-4] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=56fa1988bbc4, version=1, registration=Registration(name=FILE-UPLOAD, managementUrl=http://10.54.88.121:8080/actuator, healthUrl=http://10.54.88.121:8080/actuator/health, serviceUrl=http://10.54.88.121:8080/, source=discovery), registered=true, statusInfo=StatusInfo(status=DOWN, details={path=/actuator/health, error=Not Found, message=No message available, status=404, timestamp=2019-04-19T02:46:03.129+0000}), statusTimestamp=2019-04-19T02:46:03.221Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://10.54.88.121:8080/actuator/health)}), buildVersion=null)
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /10.54.88.121:8080
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_101]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:325) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) ~[netty-common-4.1.27.Final.jar:4.1.27.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_101]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.MonoCreate] :
+	reactor.core.publisher.Mono.create(Mono.java:172)
+	reactor.ipc.netty.tcp.TcpClient.newHandler(TcpClient.java:174)
+	reactor.ipc.netty.http.client.HttpClient$TcpBridgeClient.newHandler(HttpClient.java:385)
+	reactor.ipc.netty.http.client.MonoHttpClientResponse.lambda$subscribe$0(MonoHttpClientResponse.java:75)
+	reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:45)
+	reactor.core.publisher.Mono.subscribe(Mono.java:3080)
+	reactor.core.publisher.FluxRetryPredicate$RetryPredicateSubscriber.resubscribe(FluxRetryPredicate.java:123)
+	reactor.core.publisher.MonoRetryPredicate.subscribe(MonoRetryPredicate.java:51)
+	reactor.core.publisher.MonoMapFuseable.subscribe(MonoMapFuseable.java:59)
+	reactor.ipc.netty.http.client.MonoHttpClientResponse.subscribe(MonoHttpClientResponse.java:81)
+	reactor.core.publisher.MonoMap.subscribe(MonoMap.java:55)
+	reactor.core.publisher.MonoPeekFuseable.subscribe(MonoPeekFuseable.java:74)
+	reactor.core.publisher.MonoPeekFuseable.subscribe(MonoPeekFuseable.java:74)
+	reactor.core.publisher.MonoPeekFuseable.subscribe(MonoPeekFuseable.java:74)
+	reactor.core.publisher.MonoMapFuseable.subscribe(MonoMapFuseable.java:59)
+	reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60)
+	reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150)
+	reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+	reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:1640)
+	reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:149)
+	reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:1454)
+	reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:1328)
+	reactor.core.publisher.FluxMap$MapSubscriber.onSubscribe(FluxMap.java:86)
+	reactor.core.publisher.MonoJust.subscribe(MonoJust.java:54)
+	reactor.core.publisher.MonoMap.subscribe(MonoMap.java:55)
+	reactor.core.publisher.MonoSwitchIfEmpty.subscribe(MonoSwitchIfEmpty.java:44)
+	reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60)
+	reactor.core.publisher.MonoSwitchIfEmpty.subscribe(MonoSwitchIfEmpty.java:44)
+	reactor.core.publisher.MonoLogFuseable.subscribe(MonoLogFuseable.java:53)
+	reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60)
+	reactor.core.publisher.MonoPeekFuseable.subscribe(MonoPeekFuseable.java:74)
+	reactor.core.publisher.MonoOnErrorResume.subscribe(MonoOnErrorResume.java:44)
+	reactor.core.publisher.MonoMapFuseable.subscribe(MonoMapFuseable.java:59)
+	reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150)
+	reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:1640)
+	reactor.core.publisher.MonoFlatMap$FlatMapMain.onSubscribe(MonoFlatMap.java:103)
+	reactor.core.publisher.MonoJust.subscribe(MonoJust.java:54)
+	reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+	reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60)
+	reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60)
+	reactor.core.publisher.Mono.subscribe(Mono.java:3080)
+	reactor.core.publisher.FluxRetryWhen.subscribe(FluxRetryWhen.java:82)
+	reactor.core.publisher.MonoRetryWhen.subscribe(MonoRetryWhen.java:50)
+	reactor.core.publisher.Mono.subscribe(Mono.java:3080)
+	reactor.core.publisher.MonoIgnorePublisher.subscribe(MonoIgnorePublisher.java:41)
+	reactor.core.publisher.MonoDoFinallyFuseable.subscribe(MonoDoFinallyFuseable.java:48)
+	reactor.core.publisher.Mono.subscribe(Mono.java:3080)
+	reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:372)
+	reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:115)
+	reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.tryOnNext(FluxFilterFuseable.java:129)
+	reactor.core.publisher.FluxIterable$IterableSubscriptionConditional.slowPath(FluxIterable.java:516)
+	reactor.core.publisher.FluxIterable$IterableSubscriptionConditional.request(FluxIterable.java:474)
+	reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.request(FluxFilterFuseable.java:170)
+	reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:156)
+	reactor.core.publisher.FluxFlatMap$FlatMapMain.onSubscribe(FluxFlatMap.java:332)
+	reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.onSubscribe(FluxFilterFuseable.java:79)
+	reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:136)
+	reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:64)
+	reactor.core.publisher.FluxFilterFuseable.subscribe(FluxFilterFuseable.java:51)
+	reactor.core.publisher.FluxMapFuseable.subscribe(FluxMapFuseable.java:63)
+	reactor.core.publisher.FluxFlatMap.subscribe(FluxFlatMap.java:97)
+	reactor.core.publisher.MonoIgnoreElements.subscribe(MonoIgnoreElements.java:37)
+	reactor.core.publisher.Mono.subscribe(Mono.java:3080)
+	reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:372)
+	reactor.core.publisher.FluxSubscribeOn$SubscribeOnSubscriber.onNext(FluxSubscribeOn.java:151)
+	reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:185)
+	reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:185)
+	reactor.core.publisher.FluxInterval$IntervalRunnable.run(FluxInterval.java:123)
+	reactor.core.scheduler.PeriodicWorkerTask.call(PeriodicWorkerTask.java:59)
+	reactor.core.scheduler.PeriodicWorkerTask.run(PeriodicWorkerTask.java:73)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+Error has been observed by the following operator(s):
+	|_	Mono.create(TcpClient.java:174)
+	|_	Mono.defer(MonoHttpClientResponse.java:75)
+	|_	Mono.retry(MonoHttpClientResponse.java:79)
+	|_	Mono.cast(MonoHttpClientResponse.java:80)
+	|_	Mono.map(ReactorClientHttpConnector.java:75)
+	|_	Mono.doOnSubscribe(ExchangeFunctions.java:81)
+	|_	Mono.doOnRequest(ExchangeFunctions.java:82)
+	|_	Mono.doOnCancel(ExchangeFunctions.java:83)
+	|_	Mono.map(ExchangeFunctions.java:84)
+	|_	Mono.flatMap(InstanceExchangeFilterFunctions.java:131)
+	|_	Mono.flatMap(InstanceExchangeFilterFunctions.java:63)
+	|_	Mono.switchIfEmpty(DefaultWebClient.java:316)
+	|_	Mono.log(StatusUpdater.java:74)
+	|_	Mono.flatMap(StatusUpdater.java:75)
+
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 10 common frames omitted
+
+2019-04-19 10:46:49.269 ERROR 74792 --- [http-nio-12315-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1279) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1561) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:371) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297) ~[na:1.8.0_101]
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141) ~[na:1.8.0_101]
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229) ~[na:1.8.0_101]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:121) ~[spring-core-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:103) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:226) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:200) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:190) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:366) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:309) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+
+2019-04-19 10:46:49.276 ERROR 74792 --- [http-nio-12315-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_101]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1279) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1561) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:371) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514) ~[spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297) ~[na:1.8.0_101]
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141) ~[na:1.8.0_101]
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229) ~[na:1.8.0_101]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:121) ~[spring-core-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:103) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:226) ~[spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:200) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:190) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:366) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:309) ~[spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_101]
+
+2019-04-19 10:46:49.283  WARN 74792 --- [http-nio-12315-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+2019-04-19 10:46:50.595  INFO 74792 --- [reactor-http-nio-3] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=e39466a75441, version=2, registration=Registration(name=ADMIN-SERVER, managementUrl=http://10.54.88.121:12315/actuator, healthUrl=http://10.54.88.121:12315/actuator/health, serviceUrl=http://10.54.88.121:12315/, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={hystrix={status=UP}, diskSpace={status=UP, details={total=255568121856, free=43873636352, threshold=10485760}}, refreshScope={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[admin-server]}}, eureka={description=Remote status from Eureka server, status=UP, details={applications={ADMIN-SERVER=1}}}}}}), statusTimestamp=2019-04-19T01:59:36.795Z, info=Info(values={}), endpoints=Endpoints(endpoints={httptrace=Endpoint(id=httptrace, url=http://10.54.88.121:12315/actuator/httptrace), loggers=Endpoint(id=loggers, url=http://10.54.88.121:12315/actuator/loggers), logfile=Endpoint(id=logfile, url=http://10.54.88.121:12315/actuator/logfile), health=Endpoint(id=health, url=http://10.54.88.121:12315/actuator/health), refresh=Endpoint(id=refresh, url=http://10.54.88.121:12315/actuator/refresh), env=Endpoint(id=env, url=http://10.54.88.121:12315/actuator/env), heapdump=Endpoint(id=heapdump, url=http://10.54.88.121:12315/actuator/heapdump), features=Endpoint(id=features, url=http://10.54.88.121:12315/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://10.54.88.121:12315/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://10.54.88.121:12315/actuator/mappings), archaius=Endpoint(id=archaius, url=http://10.54.88.121:12315/actuator/archaius), beans=Endpoint(id=beans, url=http://10.54.88.121:12315/actuator/beans), configprops=Endpoint(id=configprops, url=http://10.54.88.121:12315/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://10.54.88.121:12315/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://10.54.88.121:12315/actuator/metrics), conditions=Endpoint(id=conditions, url=http://10.54.88.121:12315/actuator/conditions), auditevents=Endpoint(id=auditevents, url=http://10.54.88.121:12315/actuator/auditevents), service-registry=Endpoint(id=service-registry, url=http://10.54.88.121:12315/actuator/service-registry), info=Endpoint(id=info, url=http://10.54.88.121:12315/actuator/info)}), buildVersion=null)
+
+io.netty.channel.ConnectTimeoutException: connection timed out: /10.54.88.121:12315
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38) ~[netty-common-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127) ~[netty-common-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[netty-common-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404) ~[netty-common-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:464) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) ~[netty-common-4.1.27.Final.jar:4.1.27.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_101]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.MonoCreate] :
+	reactor.core.publisher.Mono.create(Mono.java:172)
+	reactor.ipc.netty.tcp.TcpClient.newHandler(TcpClient.java:174)
+	reactor.ipc.netty.http.client.HttpClient$TcpBridgeClient.newHandler(HttpClient.java:385)
+	reactor.ipc.netty.http.client.MonoHttpClientResponse.lambda$subscribe$0(MonoHttpClientResponse.java:75)
+	reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:45)
+	reactor.core.publisher.Mono.subscribe(Mono.java:3080)
+	reactor.core.publisher.FluxRetryPredicate$RetryPredicateSubscriber.resubscribe(FluxRetryPredicate.java:123)
+	reactor.core.publisher.MonoRetryPredicate.subscribe(MonoRetryPredicate.java:51)
+	reactor.core.publisher.MonoMapFuseable.subscribe(MonoMapFuseable.java:59)
+	reactor.ipc.netty.http.client.MonoHttpClientResponse.subscribe(MonoHttpClientResponse.java:81)
+	reactor.core.publisher.MonoMap.subscribe(MonoMap.java:55)
+	reactor.core.publisher.MonoPeekFuseable.subscribe(MonoPeekFuseable.java:74)
+	reactor.core.publisher.MonoPeekFuseable.subscribe(MonoPeekFuseable.java:74)
+	reactor.core.publisher.MonoPeekFuseable.subscribe(MonoPeekFuseable.java:74)
+	reactor.core.publisher.MonoMapFuseable.subscribe(MonoMapFuseable.java:59)
+	reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60)
+	reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150)
+	reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+	reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:1640)
+	reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:149)
+	reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:1454)
+	reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:1328)
+	reactor.core.publisher.FluxMap$MapSubscriber.onSubscribe(FluxMap.java:86)
+	reactor.core.publisher.MonoJust.subscribe(MonoJust.java:54)
+	reactor.core.publisher.MonoMap.subscribe(MonoMap.java:55)
+	reactor.core.publisher.MonoSwitchIfEmpty.subscribe(MonoSwitchIfEmpty.java:44)
+	reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60)
+	reactor.core.publisher.MonoSwitchIfEmpty.subscribe(MonoSwitchIfEmpty.java:44)
+	reactor.core.publisher.MonoLogFuseable.subscribe(MonoLogFuseable.java:53)
+	reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60)
+	reactor.core.publisher.MonoPeekFuseable.subscribe(MonoPeekFuseable.java:74)
+	reactor.core.publisher.MonoOnErrorResume.subscribe(MonoOnErrorResume.java:44)
+	reactor.core.publisher.MonoMapFuseable.subscribe(MonoMapFuseable.java:59)
+	reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150)
+	reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:1640)
+	reactor.core.publisher.MonoFlatMap$FlatMapMain.onSubscribe(MonoFlatMap.java:103)
+	reactor.core.publisher.MonoJust.subscribe(MonoJust.java:54)
+	reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+	reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60)
+	reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60)
+	reactor.core.publisher.Mono.subscribe(Mono.java:3080)
+	reactor.core.publisher.FluxRetryWhen.subscribe(FluxRetryWhen.java:82)
+	reactor.core.publisher.MonoRetryWhen.subscribe(MonoRetryWhen.java:50)
+	reactor.core.publisher.Mono.subscribe(Mono.java:3080)
+	reactor.core.publisher.MonoIgnorePublisher.subscribe(MonoIgnorePublisher.java:41)
+	reactor.core.publisher.MonoDoFinallyFuseable.subscribe(MonoDoFinallyFuseable.java:48)
+	reactor.core.publisher.Mono.subscribe(Mono.java:3080)
+	reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:372)
+	reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:115)
+	reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.tryOnNext(FluxFilterFuseable.java:129)
+	reactor.core.publisher.FluxIterable$IterableSubscriptionConditional.slowPath(FluxIterable.java:516)
+	reactor.core.publisher.FluxIterable$IterableSubscriptionConditional.request(FluxIterable.java:474)
+	reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.request(FluxFilterFuseable.java:170)
+	reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:156)
+	reactor.core.publisher.FluxFlatMap$FlatMapMain.onSubscribe(FluxFlatMap.java:332)
+	reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.onSubscribe(FluxFilterFuseable.java:79)
+	reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:136)
+	reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:64)
+	reactor.core.publisher.FluxFilterFuseable.subscribe(FluxFilterFuseable.java:51)
+	reactor.core.publisher.FluxMapFuseable.subscribe(FluxMapFuseable.java:63)
+	reactor.core.publisher.FluxFlatMap.subscribe(FluxFlatMap.java:97)
+	reactor.core.publisher.MonoIgnoreElements.subscribe(MonoIgnoreElements.java:37)
+	reactor.core.publisher.Mono.subscribe(Mono.java:3080)
+	reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:372)
+	reactor.core.publisher.FluxSubscribeOn$SubscribeOnSubscriber.onNext(FluxSubscribeOn.java:151)
+	reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:185)
+	reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:185)
+	reactor.core.publisher.FluxInterval$IntervalRunnable.run(FluxInterval.java:123)
+	reactor.core.scheduler.PeriodicWorkerTask.call(PeriodicWorkerTask.java:59)
+	reactor.core.scheduler.PeriodicWorkerTask.run(PeriodicWorkerTask.java:73)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+Error has been observed by the following operator(s):
+	|_	Mono.create(TcpClient.java:174)
+	|_	Mono.defer(MonoHttpClientResponse.java:75)
+	|_	Mono.retry(MonoHttpClientResponse.java:79)
+	|_	Mono.cast(MonoHttpClientResponse.java:80)
+	|_	Mono.map(ReactorClientHttpConnector.java:75)
+	|_	Mono.doOnSubscribe(ExchangeFunctions.java:81)
+	|_	Mono.doOnRequest(ExchangeFunctions.java:82)
+	|_	Mono.doOnCancel(ExchangeFunctions.java:83)
+	|_	Mono.map(ExchangeFunctions.java:84)
+	|_	Mono.flatMap(InstanceExchangeFilterFunctions.java:131)
+	|_	Mono.flatMap(InstanceExchangeFilterFunctions.java:63)
+	|_	Mono.switchIfEmpty(DefaultWebClient.java:316)
+	|_	Mono.log(StatusUpdater.java:74)
+	|_	Mono.flatMap(StatusUpdater.java:75)
+
+
+2019-04-19 10:49:13.223  INFO 74792 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-04-19 10:49:33.232  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:49:38.246  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:49:43.254  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:49:48.267  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:49:53.274  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:49:58.284  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:50:03.291  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:50:08.300  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:50:13.310  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:50:18.319  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:50:23.327  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:50:28.335  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:50:33.346  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:50:38.356  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:50:43.364  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:50:48.375  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:50:53.386  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:50:58.398  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:51:03.409  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:51:08.419  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:51:13.444  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:51:18.458  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:51:23.464  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:51:28.474  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:51:33.480  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:51:38.487  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:51:43.500  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:51:48.512  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:51:53.519  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:51:58.529  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
+2019-04-19 10:52:03.592  INFO 74792 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (56fa1988bbc4) missing in DiscoveryClient services 
