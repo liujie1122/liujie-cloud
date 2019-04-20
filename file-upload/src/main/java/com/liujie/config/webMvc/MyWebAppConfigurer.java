@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * Description : webMVC层的相关配置在这里
  */
-@EnableWebMvc
+//@EnableWebMvc
 @Configuration
 public class MyWebAppConfigurer extends WebMvcConfigurationSupport {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
